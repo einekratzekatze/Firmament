@@ -1,11 +1,11 @@
-package moe.nea.firmament.gui.entity
+package moe.nea.notfimament.gui.entity
 
 import net.minecraft.client.entity.ClientMannequin
 import net.minecraft.client.resources.DefaultPlayerSkin
 import net.minecraft.client.multiplayer.ClientLevel
 import net.minecraft.world.entity.player.PlayerSkin
 import net.minecraft.world.level.Level
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.util.MC
 
 fun makeGuiPlayer(world: Level): GuiPlayer {
 	val player = GuiPlayer(MC.instance.level!!)

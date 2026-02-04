@@ -1,6 +1,6 @@
-package moe.nea.firmament.util.skyblock
+package moe.nea.notfimament.util.skyblock
 
-import moe.nea.firmament.util.SkyblockId
+import moe.nea.notfimament.util.SkyblockId
 
 object SkyBlockItems {
 	val COINS = SkyblockId("SKYBLOCK_COIN")

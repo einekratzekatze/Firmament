@@ -1,4 +1,4 @@
-package moe.nea.firmament.annotations.process
+package moe.nea.notfimament.annotations.process
 
 import com.google.auto.service.AutoService
 import com.google.devtools.ksp.containingFile
@@ -52,7 +52,7 @@ class GameTestContainingClassProcessor(
 	fun createJson(): JsonObject {
 		return JsonObject().apply {
 			addProperty("schemaVersion", 1)
-			addProperty("id", "firmament-gametest")
+			addProperty("id", "notfimament-gametest")
 			addProperty("name", "Firmament Gametest")
 			addProperty("version", "1.0.0")
 			addProperty("environment", "*")

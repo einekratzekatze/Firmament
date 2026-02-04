@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import com.google.gson.JsonElement
 import com.mojang.serialization.JsonOps
@@ -11,11 +11,11 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.serializer
 import net.minecraft.world.item.Item
 import net.minecraft.resources.ResourceKey
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.ReforgeId
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.json.KJsonOps
-import moe.nea.firmament.util.skyblock.ItemType
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.ReforgeId
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.json.KJsonOps
+import moe.nea.notfimament.util.skyblock.ItemType
 
 object ReforgeStore : ExtraRecipeProvider, IReloadable {
 	override fun provideExtraRecipes(): Iterable<NEURecipe> {

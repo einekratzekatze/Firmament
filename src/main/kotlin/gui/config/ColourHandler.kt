@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import io.github.notenoughupdates.moulconfig.ChromaColour
 import io.github.notenoughupdates.moulconfig.gui.component.ColorSelectComponent
@@ -10,7 +10,7 @@ import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class ColourHandler(val config: ManagedConfig) :
 	ManagedConfig.OptionHandler<ChromaColour> {

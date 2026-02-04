@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 /**
  * Called in a devenv after minecraft has been initialized. This event should be used to force instantiation of lazy

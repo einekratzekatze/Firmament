@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import io.github.notenoughupdates.moulconfig.observer.GetSetter
 import io.github.notenoughupdates.moulconfig.observer.Property
@@ -16,18 +16,18 @@ import net.minecraft.client.input.MouseButtonInfo
 import net.minecraft.network.chat.Component
 import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.Items
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.api.v1.FirmamentAPI
-import moe.nea.firmament.events.HandledScreenClickEvent
-import moe.nea.firmament.events.HandledScreenForegroundEvent
-import moe.nea.firmament.events.ReloadRegistrationEvent
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.accessors.castAccessor
-import moe.nea.firmament.util.render.drawAlignedBox
-import moe.nea.firmament.util.render.drawLine
-import moe.nea.firmament.util.skyblockId
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.api.v1.FirmamentAPI
+import moe.nea.notfimament.events.HandledScreenClickEvent
+import moe.nea.notfimament.events.HandledScreenForegroundEvent
+import moe.nea.notfimament.events.ReloadRegistrationEvent
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.accessors.castAccessor
+import moe.nea.notfimament.util.render.drawAlignedBox
+import moe.nea.notfimament.util.render.drawLine
+import moe.nea.notfimament.util.skyblockId
 
 object ItemList {
 	// TODO: add a global toggle for this and RecipeRegistry

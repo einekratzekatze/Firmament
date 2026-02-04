@@ -1,14 +1,14 @@
-package moe.nea.firmament.features.misc
+package moe.nea.notfimament.features.misc
 
 import org.joml.Vector2i
 import net.minecraft.client.multiplayer.PlayerInfo
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HudRenderEvent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HudRenderEvent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.tr
 
 object Hud {
 	val identifier: String

@@ -1,14 +1,14 @@
-package moe.nea.firmament.features.inventory
+package moe.nea.notfimament.features.inventory
 
 import org.lwjgl.glfw.GLFW
 import kotlin.math.absoluteValue
 import kotlin.time.Duration.Companion.milliseconds
 import com.mojang.blaze3d.platform.InputConstants
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.assertNotNullOr
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.assertNotNullOr
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
 
 object SaveCursorPosition {
 	val identifier: String

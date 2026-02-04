@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.chat
+package moe.nea.notfimament.features.chat
 
 import com.mojang.brigadier.CommandDispatcher
 import com.mojang.brigadier.context.CommandContext
@@ -8,20 +8,20 @@ import net.fabricmc.fabric.impl.command.client.ClientCommandInternals
 import net.minecraft.commands.CommandBuildContext
 import net.minecraft.network.protocol.game.ClientboundCommandsPacket
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.DefaultSource
-import moe.nea.firmament.commands.RestArgumentType
-import moe.nea.firmament.commands.get
-import moe.nea.firmament.commands.thenArgument
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.gui.config.ManagedOption
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.grey
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.DefaultSource
+import moe.nea.notfimament.commands.RestArgumentType
+import moe.nea.notfimament.commands.get
+import moe.nea.notfimament.commands.thenArgument
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.gui.config.ManagedOption
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.grey
+import moe.nea.notfimament.util.tr
 
 object QuickCommands {
 	val identifier: String

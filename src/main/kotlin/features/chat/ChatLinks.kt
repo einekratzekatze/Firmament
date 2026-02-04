@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.chat
+package moe.nea.notfimament.features.chat
 
 import com.mojang.blaze3d.platform.NativeImage
 import java.net.URI
@@ -20,18 +20,18 @@ import net.minecraft.network.chat.Component
 import net.minecraft.network.chat.HoverEvent
 import net.minecraft.network.chat.Style
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ModifyChatEvent
-import moe.nea.firmament.events.ScreenRenderPostEvent
-import moe.nea.firmament.jarvis.JarvisIntegration
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.net.HttpUtil
-import moe.nea.firmament.util.render.drawTexture
-import moe.nea.firmament.util.transformEachRecursively
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ModifyChatEvent
+import moe.nea.notfimament.events.ScreenRenderPostEvent
+import moe.nea.notfimament.jarvis.JarvisIntegration
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.net.HttpUtil
+import moe.nea.notfimament.util.render.drawTexture
+import moe.nea.notfimament.util.transformEachRecursively
+import moe.nea.notfimament.util.unformattedString
 
 
 object ChatLinks {

@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui
+package moe.nea.notfimament.gui
 
 import io.github.notenoughupdates.moulconfig.common.MyResourceLocation
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent

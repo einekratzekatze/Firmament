@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.math
+package moe.nea.notfimament.util.math
 
 import kotlin.math.min
 

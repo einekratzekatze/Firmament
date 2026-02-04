@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import com.mojang.brigadier.arguments.IntegerArgumentType
 import me.shedaniel.math.Color
@@ -7,21 +7,21 @@ import kotlin.time.Duration.Companion.seconds
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument
 import net.minecraft.network.chat.Component
 import net.minecraft.world.phys.Vec3
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.get
-import moe.nea.firmament.commands.thenArgument
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.commands.thenLiteral
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.mc.asFakeServer
-import moe.nea.firmament.util.render.RenderInWorldContext
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.get
+import moe.nea.notfimament.commands.thenArgument
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.commands.thenLiteral
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.mc.asFakeServer
+import moe.nea.notfimament.util.render.RenderInWorldContext
+import moe.nea.notfimament.util.tr
 
 object Waypoints {
 	val identifier: String

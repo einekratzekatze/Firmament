@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.debug
+package moe.nea.notfimament.features.debug
 
 import java.io.File
 import java.nio.file.Path
@@ -12,17 +12,17 @@ import kotlin.io.path.absolute
 import kotlin.io.path.exists
 import net.minecraft.client.Minecraft
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.DebugInstantiateEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.init.MixinPlugin
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.asm.AsmAnnotationUtil
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.iterate
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.DebugInstantiateEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.init.MixinPlugin
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.asm.AsmAnnotationUtil
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.iterate
 
 object DeveloperFeatures {
 	val DEVELOPER_SUBCOMMAND: String = "dev"

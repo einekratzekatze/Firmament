@@ -1,17 +1,17 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import me.shedaniel.math.Color
 import kotlin.time.Duration.Companion.seconds
 import net.minecraft.network.chat.Component
 import net.minecraft.core.BlockPos
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.features.world.Waypoints.TConfig
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.render.RenderInWorldContext
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.features.world.Waypoints.TConfig
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.render.RenderInWorldContext
 
 object TemporaryWaypoints {
 	data class TemporaryWaypoint(

@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import java.io.IOException
 import java.nio.file.Files
@@ -16,11 +16,11 @@ import kotlin.io.path.inputStream
 import kotlin.io.path.outputStream
 import kotlin.io.path.readText
 import kotlin.io.path.writeText
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.Firmament.logger
-import moe.nea.firmament.repo.RepoDownloadManager.latestSavedVersionHash
-import moe.nea.firmament.util.iterate
-import moe.nea.firmament.util.net.HttpUtil
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.Firmament.logger
+import moe.nea.notfimament.repo.RepoDownloadManager.latestSavedVersionHash
+import moe.nea.notfimament.util.iterate
+import moe.nea.notfimament.util.net.HttpUtil
 
 
 object RepoDownloadManager {
@@ -116,8 +116,8 @@ object RepoDownloadManager {
 						entry.name.substringAfter('/', missingDelimiterValue = "")
 					)
 				if (repoSavedLocation !in extractedLocation.iterate { it.parent }) {
-					logger.error("Firmament detected an invalid zip file. This is a potential security risk, please report this in the Firmament discord.")
-					throw RuntimeException("Firmament detected an invalid zip file. This is a potential security risk, please report this in the Firmament discord.")
+					logger.error("Notfimament detected an invalid zip file. This is a potential security risk.")
+					throw RuntimeException("Notfimament detected an invalid zip file. This is a potential security risk.")
 				}
 				extractedLocation.parent.createDirectories()
 				extractedLocation.outputStream().use { cis.copyTo(it) }

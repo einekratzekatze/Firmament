@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import com.mojang.datafixers.util.Pair
 import net.minecraft.world.entity.Entity
@@ -7,8 +7,8 @@ import net.minecraft.world.entity.LivingEntity
 import net.minecraft.network.syncher.SynchedEntityData
 import net.minecraft.world.item.ItemStack
 import net.minecraft.network.protocol.game.ClientboundUpdateAttributesPacket
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.util.MC
 
 /**
  * This event is fired when some entity properties are updated.

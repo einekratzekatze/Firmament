@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import io.github.notenoughupdates.moulconfig.observer.GetSetter
 import kotlinx.serialization.json.JsonElement
@@ -6,8 +6,8 @@ import kotlinx.serialization.json.JsonObject
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class ManagedOption<T : Any>(
 	val element: ManagedConfig,

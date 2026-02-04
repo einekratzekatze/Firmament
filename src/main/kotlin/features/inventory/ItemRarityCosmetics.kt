@@ -1,16 +1,16 @@
-package moe.nea.firmament.features.inventory
+package moe.nea.notfimament.features.inventory
 
 import java.awt.Color
 import net.minecraft.client.renderer.RenderPipelines
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.world.item.ItemStack
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HotbarItemRenderEvent
-import moe.nea.firmament.events.SlotRenderEvents
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.skyblock.Rarity
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HotbarItemRenderEvent
+import moe.nea.notfimament.events.SlotRenderEvents
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.skyblock.Rarity
 
 object ItemRarityCosmetics {
 	val identifier: String
@@ -32,7 +32,7 @@ object ItemRarityCosmetics {
 		val rgb = rarityToColor[rarity] ?: 0xFF00FF80.toInt()
 		drawContext.blitSprite(
 			RenderPipelines.GUI_TEXTURED,
-			Identifier.parse("firmament:item_rarity_background"),
+			Identifier.parse("notfimament:item_rarity_background"),
 			x, y,
 			16, 16,
 			rgb

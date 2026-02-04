@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 data class PartyMessageReceivedEvent(
 	val from: ProcessChatEvent,

@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import kotlin.jvm.optionals.getOrNull
 import net.minecraft.world.item.ItemStack
@@ -7,7 +7,7 @@ import net.minecraft.nbt.NbtOps
 import net.minecraft.resources.RegistryOps
 import net.minecraft.core.HolderLookup
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.util.MC
 
 fun ItemStack.appendLore(args: List<Component>) {
 	if (args.isEmpty()) return

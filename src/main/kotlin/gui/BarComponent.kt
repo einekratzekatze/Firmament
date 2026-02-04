@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui
+package moe.nea.notfimament.gui
 
 import io.github.notenoughupdates.moulconfig.common.MyResourceLocation
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
@@ -9,7 +9,7 @@ import me.shedaniel.math.Color
 import net.minecraft.client.renderer.RenderPipelines
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 class BarComponent(
 	val progress: GetSetter<Double>, val total: GetSetter<Double>,

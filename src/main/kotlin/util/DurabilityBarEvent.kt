@@ -1,10 +1,10 @@
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import me.shedaniel.math.Color
 import net.minecraft.world.item.ItemStack
-import moe.nea.firmament.events.FirmamentEvent
-import moe.nea.firmament.events.FirmamentEventBus
+import moe.nea.notfimament.events.FirmamentEvent
+import moe.nea.notfimament.events.FirmamentEventBus
 
 data class DurabilityBarEvent(
     val item: ItemStack,

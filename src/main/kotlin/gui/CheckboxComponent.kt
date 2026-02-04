@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui
+package moe.nea.notfimament.gui
 
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
 import io.github.notenoughupdates.moulconfig.gui.GuiImmediateContext
@@ -6,7 +6,7 @@ import io.github.notenoughupdates.moulconfig.gui.MouseEvent
 import io.github.notenoughupdates.moulconfig.observer.GetSetter
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigRenderContext
 import net.minecraft.client.renderer.RenderPipelines
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 class CheckboxComponent<T>(
 	val state: GetSetter<T>,

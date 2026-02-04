@@ -1,13 +1,13 @@
-package moe.nea.firmament.test.util.skyblock
+package moe.nea.notfimament.test.util.skyblock
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.test.testutil.ItemResources
-import moe.nea.firmament.util.skyblock.AbilityUtils
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.test.testutil.ItemResources
+import moe.nea.notfimament.util.skyblock.AbilityUtils
+import moe.nea.notfimament.util.unformattedString
 
 class AbilityUtilsTest {
 

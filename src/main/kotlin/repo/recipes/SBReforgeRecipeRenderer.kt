@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo.recipes
+package moe.nea.notfimament.repo.recipes
 
 import io.github.moulberry.repo.NEURepository
 import me.shedaniel.math.Point
@@ -9,21 +9,21 @@ import net.minecraft.world.entity.EntitySpawnReason
 import net.minecraft.world.entity.EntityType
 import net.minecraft.world.entity.npc.villager.VillagerProfession
 import net.minecraft.world.item.ItemStack
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.gui.entity.EntityRenderer
-import moe.nea.firmament.repo.ExpensiveItemCacheApi
-import moe.nea.firmament.repo.Reforge
-import moe.nea.firmament.repo.ReforgeStore
-import moe.nea.firmament.repo.RepoItemTypeCache
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.util.FirmFormatters.formatCommas
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.gold
-import moe.nea.firmament.util.grey
-import moe.nea.firmament.util.skyblock.Rarity
-import moe.nea.firmament.util.skyblock.SkyBlockItems
-import moe.nea.firmament.util.skyblockId
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.gui.entity.EntityRenderer
+import moe.nea.notfimament.repo.ExpensiveItemCacheApi
+import moe.nea.notfimament.repo.Reforge
+import moe.nea.notfimament.repo.ReforgeStore
+import moe.nea.notfimament.repo.RepoItemTypeCache
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.util.FirmFormatters.formatCommas
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.gold
+import moe.nea.notfimament.util.grey
+import moe.nea.notfimament.util.skyblock.Rarity
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.util.skyblockId
+import moe.nea.notfimament.util.tr
 
 object SBReforgeRecipeRenderer : GenericRecipeRenderer<Reforge> {
 	@OptIn(ExpensiveItemCacheApi::class)

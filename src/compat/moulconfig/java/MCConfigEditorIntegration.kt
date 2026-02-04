@@ -1,4 +1,4 @@
-package moe.nea.firmament.compat.moulconfig
+package moe.nea.notfimament.compat.moulconfig
 
 import com.google.auto.service.AutoService
 import io.github.notenoughupdates.moulconfig.ChromaColour
@@ -40,27 +40,27 @@ import net.minecraft.client.gui.screens.Screen
 import net.minecraft.network.chat.Component
 import net.minecraft.resources.Identifier
 import net.minecraft.util.StringRepresentable
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.gui.config.AllConfigsGui
-import moe.nea.firmament.gui.config.BooleanHandler
-import moe.nea.firmament.gui.config.ChoiceHandler
-import moe.nea.firmament.gui.config.ClickHandler
-import moe.nea.firmament.gui.config.ColourHandler
-import moe.nea.firmament.gui.config.DurationHandler
-import moe.nea.firmament.gui.config.FirmamentConfigScreenProvider
-import moe.nea.firmament.gui.config.HudMeta
-import moe.nea.firmament.gui.config.HudMetaHandler
-import moe.nea.firmament.gui.config.IntegerHandler
-import moe.nea.firmament.gui.config.KeyBindingHandler
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.gui.config.ManagedOption
-import moe.nea.firmament.gui.config.StringHandler
-import moe.nea.firmament.gui.toMoulConfig
-import moe.nea.firmament.keybindings.SavedKeyBinding
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.FirmFormatters
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MoulConfigUtils.xmap
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.gui.config.AllConfigsGui
+import moe.nea.notfimament.gui.config.BooleanHandler
+import moe.nea.notfimament.gui.config.ChoiceHandler
+import moe.nea.notfimament.gui.config.ClickHandler
+import moe.nea.notfimament.gui.config.ColourHandler
+import moe.nea.notfimament.gui.config.DurationHandler
+import moe.nea.notfimament.gui.config.FirmamentConfigScreenProvider
+import moe.nea.notfimament.gui.config.HudMeta
+import moe.nea.notfimament.gui.config.HudMetaHandler
+import moe.nea.notfimament.gui.config.IntegerHandler
+import moe.nea.notfimament.gui.config.KeyBindingHandler
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.gui.config.ManagedOption
+import moe.nea.notfimament.gui.config.StringHandler
+import moe.nea.notfimament.gui.toMoulConfig
+import moe.nea.notfimament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.FirmFormatters
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MoulConfigUtils.xmap
 
 @AutoService(FirmamentConfigScreenProvider::class)
 class MCConfigEditorIntegration : FirmamentConfigScreenProvider {
@@ -342,7 +342,7 @@ class MCConfigEditorIntegration : FirmamentConfigScreenProvider {
 		}
 
 		override fun getTitle(): StructuredText {
-			return StructuredText.of("Firmament ${Firmament.version.friendlyString}")
+			return StructuredText.of("Notfimament ${Firmament.version.friendlyString}")
 		}
 
 		@Deprecated("Deprecated in java")

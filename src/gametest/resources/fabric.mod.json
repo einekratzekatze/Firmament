@@ -1,14 +1,14 @@
 {
 	"schemaVersion": 1,
-	"id": "firmament-gametest",
+	"id": "notfimament-gametest",
 	"version": "1.0.0",
-	"name": "Firmament Game Tests",
+	"name": "Notfimament Game Tests",
 	"environment": "*",
 	"entrypoints": {
 		"fabric-gametest": [
 		],
 		"fabric-client-gametest": [
-			"moe.nea.firmament.gametest.GameTest"
+			"moe.nea.notfimament.gametest.GameTest"
 		]
 	}
 }

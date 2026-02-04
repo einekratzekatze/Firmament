@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
 import me.shedaniel.math.Dimension
@@ -8,8 +8,8 @@ import net.minecraft.client.gui.components.events.AbstractContainerEventHandler
 import net.minecraft.client.gui.components.events.GuiEventListener
 import net.minecraft.network.chat.Component
 import net.minecraft.world.entity.LivingEntity
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.repo.recipes.RecipeLayouter
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.repo.recipes.RecipeLayouter
 
 class StandaloneRecipeRenderer(val bounds: Rectangle) : AbstractContainerEventHandler(), RecipeLayouter {
 

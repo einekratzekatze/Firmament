@@ -1,8 +1,8 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import io.github.moulberry.repo.data.NEUItem
 import net.minecraft.core.BlockPos
-import moe.nea.firmament.util.SkyBlockIsland
+import moe.nea.notfimament.util.SkyBlockIsland
 
 abstract class NavigableWaypoint {
     abstract val name: String

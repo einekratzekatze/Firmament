@@ -1,6 +1,6 @@
 @file:UseSerializers(DashlessUUIDSerializer::class)
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import com.mojang.serialization.Codec
 import io.github.moulberry.repo.data.NEUIngredient
@@ -26,19 +26,19 @@ import net.minecraft.network.RegistryFriendlyByteBuf
 import net.minecraft.network.codec.StreamCodec
 import net.minecraft.network.codec.ByteBufCodecs
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.repo.ExpLadders
-import moe.nea.firmament.repo.ExpensiveItemCacheApi
-import moe.nea.firmament.repo.ItemCache.asItemStack
-import moe.nea.firmament.repo.ItemNameLookup
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.repo.set
-import moe.nea.firmament.util.collections.WeakCache
-import moe.nea.firmament.util.json.DashlessUUIDSerializer
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.mc.unsafeNbt
-import moe.nea.firmament.util.skyblock.ScreenIdentification
-import moe.nea.firmament.util.skyblock.ScreenType
+import moe.nea.notfimament.repo.ExpLadders
+import moe.nea.notfimament.repo.ExpensiveItemCacheApi
+import moe.nea.notfimament.repo.ItemCache.asItemStack
+import moe.nea.notfimament.repo.ItemNameLookup
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.repo.set
+import moe.nea.notfimament.util.collections.WeakCache
+import moe.nea.notfimament.util.json.DashlessUUIDSerializer
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.mc.unsafeNbt
+import moe.nea.notfimament.util.skyblock.ScreenIdentification
+import moe.nea.notfimament.util.skyblock.ScreenType
 
 /**
  * A SkyBlock item id, as used by the NEU repo.

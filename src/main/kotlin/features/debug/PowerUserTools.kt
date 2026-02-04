@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.debug
+package moe.nea.notfimament.features.debug
 
 import com.mojang.serialization.JsonOps
 import kotlin.jvm.optionals.getOrNull
@@ -21,30 +21,30 @@ import net.minecraft.world.level.block.entity.SkullBlockEntity
 import net.minecraft.world.phys.BlockHitResult
 import net.minecraft.world.phys.EntityHitResult
 import net.minecraft.world.phys.HitResult
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.CustomItemModelEvent
-import moe.nea.firmament.events.HandledScreenKeyPressedEvent
-import moe.nea.firmament.events.ItemTooltipEvent
-import moe.nea.firmament.events.ScreenChangeEvent
-import moe.nea.firmament.events.SlotRenderEvents
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.WorldKeyboardEvent
-import moe.nea.firmament.mixins.accessor.AccessorHandledScreen
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.focusedItemStack
-import moe.nea.firmament.util.grey
-import moe.nea.firmament.util.mc.IntrospectableItemModelManager
-import moe.nea.firmament.util.mc.SNbtFormatter
-import moe.nea.firmament.util.mc.SNbtFormatter.Companion.toPrettyString
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.iterableArmorItems
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.mc.unsafeNbt
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.CustomItemModelEvent
+import moe.nea.notfimament.events.HandledScreenKeyPressedEvent
+import moe.nea.notfimament.events.ItemTooltipEvent
+import moe.nea.notfimament.events.ScreenChangeEvent
+import moe.nea.notfimament.events.SlotRenderEvents
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.WorldKeyboardEvent
+import moe.nea.notfimament.mixins.accessor.AccessorHandledScreen
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.focusedItemStack
+import moe.nea.notfimament.util.grey
+import moe.nea.notfimament.util.mc.IntrospectableItemModelManager
+import moe.nea.notfimament.util.mc.SNbtFormatter
+import moe.nea.notfimament.util.mc.SNbtFormatter.Companion.toPrettyString
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.iterableArmorItems
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.mc.unsafeNbt
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.tr
 
 object PowerUserTools {
 	val identifier: String

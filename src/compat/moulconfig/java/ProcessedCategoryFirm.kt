@@ -1,11 +1,11 @@
-package moe.nea.firmament.compat.moulconfig
+package moe.nea.notfimament.compat.moulconfig
 
 import io.github.notenoughupdates.moulconfig.common.text.StructuredText
 import io.github.notenoughupdates.moulconfig.gui.editors.GuiOptionEditorAccordion
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigPlatform
 import io.github.notenoughupdates.moulconfig.processor.ProcessedCategory
 import io.github.notenoughupdates.moulconfig.processor.ProcessedOption
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class ProcessedCategoryFirm(
 	val category: ManagedConfig.Category,

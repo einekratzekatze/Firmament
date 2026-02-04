@@ -1,10 +1,10 @@
-package moe.nea.firmament.util.compatloader
+package moe.nea.notfimament.util.compatloader
 
 import java.util.ServiceLoader
 import net.fabricmc.loader.api.FabricLoader
 import kotlin.reflect.KClass
 import kotlin.streams.asSequence
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 open class CompatLoader<T : Any>(val kClass: Class<T>) {
 	constructor(kClass: KClass<T>) : this(kClass.java)

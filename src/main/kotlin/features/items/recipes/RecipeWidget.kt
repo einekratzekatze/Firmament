@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import me.shedaniel.math.Dimension
 import me.shedaniel.math.Point
@@ -8,7 +8,7 @@ import net.minecraft.client.gui.components.events.GuiEventListener
 import net.minecraft.client.gui.narration.NarratableEntry
 import net.minecraft.client.gui.narration.NarrationElementOutput
 import net.minecraft.client.gui.navigation.ScreenRectangle
-import moe.nea.firmament.util.mc.asScreenRectangle
+import moe.nea.notfimament.util.mc.asScreenRectangle
 
 abstract class RecipeWidget : GuiEventListener, Renderable, NarratableEntry {
 	override fun narrationPriority(): NarratableEntry.NarrationPriority {

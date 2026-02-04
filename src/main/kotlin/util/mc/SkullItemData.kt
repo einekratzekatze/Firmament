@@ -1,6 +1,6 @@
 @file:UseSerializers(DashlessUUIDSerializer::class, InstantAsLongSerializer::class)
 
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import com.google.common.collect.Multimap
 import com.google.common.collect.Multimaps
@@ -16,11 +16,11 @@ import net.minecraft.core.component.DataComponents
 import net.minecraft.world.item.component.ResolvableProfile
 import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.Items
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.Base64Util.padToValidBase64
-import moe.nea.firmament.util.assertTrueOr
-import moe.nea.firmament.util.json.DashlessUUIDSerializer
-import moe.nea.firmament.util.json.InstantAsLongSerializer
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.Base64Util.padToValidBase64
+import moe.nea.notfimament.util.assertTrueOr
+import moe.nea.notfimament.util.json.DashlessUUIDSerializer
+import moe.nea.notfimament.util.json.InstantAsLongSerializer
 
 @Serializable
 data class MinecraftProfileTextureKt(

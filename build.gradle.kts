@@ -200,7 +200,7 @@ val testAgent by configurations.creating {
 fabricApi.configureTests {
 	createSourceSet.set(true)
 	enableClientGameTests.set(true)
-	modId.set("firmament-gametest")
+	modId.set("notfimament-gametest")
 	eula.set(true)
 	username.set("CoolGuy123")
 }
@@ -304,7 +304,7 @@ dependencies {
 
 loom {
 	clientOnlyMinecraftJar()
-	accessWidenerPath.set(project.file("src/main/resources/firmament.accesswidener"))
+	accessWidenerPath.set(project.file("src/main/resources/notfimament.accesswidener"))
 	runs {
 		removeIf { it.name == "server" }
 		configureEach {
@@ -336,8 +336,8 @@ loom {
 }
 
 mcAutoTranslations {
-	translationFunction.set("moe.nea.firmament.util.tr")
-	translationFunctionResolved.set("moe.nea.firmament.util.trResolved")
+	translationFunction.set("moe.nea.notfimament.util.tr")
+	translationFunctionResolved.set("moe.nea.notfimament.util.trResolved")
 }
 
 val downloadTestRepo by tasks.registering(RepoDownload::class) {
@@ -382,7 +382,7 @@ tasks.test {
 	jvmArgs("-XX:+EnableDynamicAgentLoading")
 	systemProperties(
 		"kotest.framework.classpath.scanning.config.disable" to true,
-		"kotest.framework.config.fqn" to "moe.nea.firmament.test.testutil.KotestPlugin",
+		"kotest.framework.config.fqn" to "moe.nea.notfimament.test.testutil.KotestPlugin",
 	)
 	useJUnitPlatform()
 }
@@ -448,8 +448,8 @@ shadowJar.configure {
 	from(zipTree(tasks.remapJar.flatMap { it.archiveFile }))
 	configurations = listOf(shadowMe)
 	archiveClassifier.set("")
-	relocate("io.github.moulberry.repo", "moe.nea.firmament.deps.repo")
-	relocate("io.github.notenoughupdates.moulconfig", "moe.nea.firmament.deps.moulconfig")
+	relocate("io.github.moulberry.repo", "moe.nea.notfimament.deps.repo")
+	relocate("io.github.notenoughupdates.moulconfig", "moe.nea.notfimament.deps.moulconfig")
 	mergeServiceFiles()
 	transform<FabricModTransform>()
 }
@@ -480,10 +480,10 @@ tasks.processResources {
 	exclude("**/*.license")
 	from(tasks.scanLicenses)
 	from(collectTranslations) {
-		into("assets/firmament/lang")
+		into("assets/notfimament/lang")
 	}
 	from(project.files("translations/languages/")) {
-		into("assets/firmament/lang")
+		into("assets/notfimament/lang")
 	}
 }
 

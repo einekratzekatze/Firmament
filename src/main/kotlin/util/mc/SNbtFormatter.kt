@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import net.minecraft.nbt.CollectionTag
 import net.minecraft.nbt.ByteTag

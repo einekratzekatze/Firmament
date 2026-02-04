@@ -1,5 +1,5 @@
 
-package moe.nea.firmament.gui.entity
+package moe.nea.notfimament.gui.entity
 
 import com.google.gson.JsonObject
 import net.minecraft.world.entity.AgeableMob

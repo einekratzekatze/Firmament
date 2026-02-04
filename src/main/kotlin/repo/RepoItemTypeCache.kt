@@ -1,9 +1,9 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import io.github.moulberry.repo.IReloadable
 import io.github.moulberry.repo.NEURepository
 import io.github.moulberry.repo.data.NEUItem
-import moe.nea.firmament.util.skyblock.ItemType
+import moe.nea.notfimament.util.skyblock.ItemType
 
 object RepoItemTypeCache : IReloadable {
 

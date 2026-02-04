@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.inventory
+package moe.nea.notfimament.features.inventory
 
 import java.time.ZoneId
 import java.time.ZonedDateTime
@@ -9,17 +9,17 @@ import java.time.format.TextStyle
 import java.time.temporal.ChronoField
 import net.minecraft.network.chat.Component
 import net.minecraft.util.StringRepresentable
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ItemTooltipEvent
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.aqua
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.grey
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.timestamp
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ItemTooltipEvent
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.aqua
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.grey
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.timestamp
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.unformattedString
 
 object TimerInLore {
 	@Config

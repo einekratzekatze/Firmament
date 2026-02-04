@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
 import io.github.notenoughupdates.moulconfig.gui.MouseEvent
@@ -6,7 +6,7 @@ import me.shedaniel.math.Dimension
 import me.shedaniel.math.Point
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.client.input.MouseButtonEvent
-import moe.nea.firmament.util.MoulConfigUtils.createAndTranslateFullContext
+import moe.nea.notfimament.util.MoulConfigUtils.createAndTranslateFullContext
 
 class MoulConfigWidget(
 	val component: GuiComponent,

@@ -1,9 +1,9 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import net.minecraft.world.item.component.CustomData
 import net.minecraft.nbt.Tag
 import net.minecraft.nbt.ListTag
-import moe.nea.firmament.mixins.accessor.AccessorNbtComponent
+import moe.nea.notfimament.mixins.accessor.AccessorNbtComponent
 
 fun Iterable<Tag>.toNbtList() = ListTag().also {
 	for (element in this) {

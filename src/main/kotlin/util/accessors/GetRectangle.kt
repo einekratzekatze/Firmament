@@ -1,10 +1,10 @@
 
 
-package moe.nea.firmament.util.accessors
+package moe.nea.notfimament.util.accessors
 
 import me.shedaniel.math.Rectangle
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
-import moe.nea.firmament.mixins.accessor.AccessorHandledScreen
+import moe.nea.notfimament.mixins.accessor.AccessorHandledScreen
 
 fun AbstractContainerScreen<*>.getProperRectangle(): Rectangle {
     this.castAccessor()

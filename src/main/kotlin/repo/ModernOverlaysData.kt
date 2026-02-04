@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import io.github.moulberry.repo.IReloadable
 import io.github.moulberry.repo.NEURepository
@@ -7,7 +7,7 @@ import kotlin.io.path.extension
 import kotlin.io.path.isDirectory
 import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.nameWithoutExtension
-import moe.nea.firmament.util.SkyblockId
+import moe.nea.notfimament.util.SkyblockId
 
 // TODO: move this over to the repo parser
 class ModernOverlaysData : IReloadable {

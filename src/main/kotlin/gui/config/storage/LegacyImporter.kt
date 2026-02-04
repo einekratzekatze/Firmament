@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config.storage
+package moe.nea.notfimament.gui.config.storage
 
 import java.nio.file.Path
 import kotlin.io.path.copyTo
@@ -11,9 +11,9 @@ import kotlin.io.path.moveTo
 import kotlin.io.path.name
 import kotlin.io.path.nameWithoutExtension
 import kotlin.io.path.writeText
-import moe.nea.firmament.gui.config.storage.FirmamentConfigLoader.configFolder
-import moe.nea.firmament.gui.config.storage.FirmamentConfigLoader.configVersionFile
-import moe.nea.firmament.gui.config.storage.FirmamentConfigLoader.storageFolder
+import moe.nea.notfimament.gui.config.storage.FirmamentConfigLoader.configFolder
+import moe.nea.notfimament.gui.config.storage.FirmamentConfigLoader.configVersionFile
+import moe.nea.notfimament.gui.config.storage.FirmamentConfigLoader.storageFolder
 
 object LegacyImporter {
 	val legacyConfigVersion = 995

@@ -1,4 +1,4 @@
-package moe.nea.firmament.compat.yacl
+package moe.nea.notfimament.compat.yacl
 
 import dev.isxander.yacl3.api.Controller
 import dev.isxander.yacl3.api.Option
@@ -9,11 +9,11 @@ import dev.isxander.yacl3.gui.controllers.ControllerWidget
 import net.minecraft.client.input.MouseButtonEvent
 import net.minecraft.client.input.KeyEvent
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.gui.config.KeyBindingHandler
-import moe.nea.firmament.gui.config.KeyBindingStateManager
-import moe.nea.firmament.gui.config.ManagedOption
-import moe.nea.firmament.keybindings.GenericInputButton
-import moe.nea.firmament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.gui.config.KeyBindingHandler
+import moe.nea.notfimament.gui.config.KeyBindingStateManager
+import moe.nea.notfimament.gui.config.ManagedOption
+import moe.nea.notfimament.keybindings.GenericInputButton
+import moe.nea.notfimament.keybindings.SavedKeyBinding
 
 class KeybindingController(
 	val option: Option<SavedKeyBinding>,

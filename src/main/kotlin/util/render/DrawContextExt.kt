@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.render
+package moe.nea.notfimament.util.render
 
 import com.mojang.blaze3d.systems.RenderSystem
 import me.shedaniel.math.Color
@@ -13,7 +13,7 @@ import com.mojang.blaze3d.vertex.PoseStack
 import net.minecraft.client.TextureFilteringMethod
 import net.minecraft.client.renderer.rendertype.RenderTypes
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.util.MC
 
 fun GuiGraphics.isUntranslatedGuiDrawContext(): Boolean {
 	return pose().m00 == 1F && pose().m11 == 1f && pose().m01 == 0F && pose().m10 == 0F && pose().m20 == 0F && pose().m21 == 0F
@@ -140,7 +140,7 @@ class LineRenderer(vertexConsumers: MultiBufferSource.BufferSource) :
 	}
 
 	override fun getTextureLabel(): String {
-		return "Firmament Line Renderer"
+		return "Notfimament Line Renderer"
 	}
 }
 

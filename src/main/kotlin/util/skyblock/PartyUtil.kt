@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.skyblock
+package moe.nea.notfimament.util.skyblock
 
 import java.util.UUID
 import net.hypixel.modapi.HypixelModAPI
@@ -8,22 +8,22 @@ import net.hypixel.modapi.packet.impl.serverbound.ServerboundPartyInfoPacket
 import org.intellij.lang.annotations.Language
 import kotlinx.coroutines.launch
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.apis.Routes
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.commands.thenLiteral
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.features.debug.DeveloperFeatures
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.bold
-import moe.nea.firmament.util.boolColour
-import moe.nea.firmament.util.grey
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.apis.Routes
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.commands.thenLiteral
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.features.debug.DeveloperFeatures
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.bold
+import moe.nea.notfimament.util.boolColour
+import moe.nea.notfimament.util.grey
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.useMatch
 
 object PartyUtil {
 	object Internal {

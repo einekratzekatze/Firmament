@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.debug.itemeditor
+package moe.nea.notfimament.features.debug.itemeditor
 
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.JsonArray
@@ -7,30 +7,30 @@ import kotlinx.serialization.json.JsonPrimitive
 import net.minecraft.client.player.AbstractClientPlayer
 import net.minecraft.world.entity.decoration.ArmorStand
 import net.minecraft.core.ClientAsset
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HandledScreenKeyPressedEvent
-import moe.nea.firmament.events.WorldKeyboardEvent
-import moe.nea.firmament.features.debug.PowerUserTools
-import moe.nea.firmament.repo.ItemNameLookup
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.SHORT_NUMBER_FORMAT
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.async.waitForTextInput
-import moe.nea.firmament.util.ifDropLast
-import moe.nea.firmament.util.mc.ScreenUtil.getSlotByIndex
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.mc.setSkullOwner
-import moe.nea.firmament.util.parseShortNumber
-import moe.nea.firmament.util.red
-import moe.nea.firmament.util.removeColorCodes
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.skyblock.SkyBlockItems
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.unformattedString
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HandledScreenKeyPressedEvent
+import moe.nea.notfimament.events.WorldKeyboardEvent
+import moe.nea.notfimament.features.debug.PowerUserTools
+import moe.nea.notfimament.repo.ItemNameLookup
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.SHORT_NUMBER_FORMAT
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.async.waitForTextInput
+import moe.nea.notfimament.util.ifDropLast
+import moe.nea.notfimament.util.mc.ScreenUtil.getSlotByIndex
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.mc.setSkullOwner
+import moe.nea.notfimament.util.parseShortNumber
+import moe.nea.notfimament.util.red
+import moe.nea.notfimament.util.removeColorCodes
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.unformattedString
+import moe.nea.notfimament.util.useMatch
 
 object ExportRecipe {
 

@@ -1,4 +1,4 @@
-package moe.nea.firmament.compat.moulconfig
+package moe.nea.notfimament.compat.moulconfig
 
 import io.github.notenoughupdates.moulconfig.Config
 import io.github.notenoughupdates.moulconfig.annotations.SearchTag

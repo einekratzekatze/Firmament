@@ -1,9 +1,9 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.util.unformattedString
 
 /**
  * Behaves like [AllowChatEvent], but is triggered even when cancelled by other mods. Intended for data collection.

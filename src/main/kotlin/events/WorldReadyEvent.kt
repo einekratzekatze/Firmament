@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 class WorldReadyEvent : FirmamentEvent() {
 	companion object : FirmamentEventBus<WorldReadyEvent>()

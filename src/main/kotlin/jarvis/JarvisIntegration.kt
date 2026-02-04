@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.jarvis
+package moe.nea.notfimament.jarvis
 
 import moe.nea.jarvis.api.Jarvis
 import moe.nea.jarvis.api.JarvisConfigOption
@@ -8,11 +8,11 @@ import moe.nea.jarvis.api.JarvisHud
 import moe.nea.jarvis.api.JarvisPlugin
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.gui.config.HudMeta
-import moe.nea.firmament.gui.config.HudMetaHandler
-import moe.nea.firmament.gui.config.storage.FirmamentConfigLoader
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.gui.config.HudMeta
+import moe.nea.notfimament.gui.config.HudMetaHandler
+import moe.nea.notfimament.gui.config.storage.FirmamentConfigLoader
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class JarvisIntegration : JarvisPlugin {
     override fun getModId(): String =

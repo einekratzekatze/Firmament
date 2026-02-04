@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalSerializationApi::class)
 
-package moe.nea.firmament.gui.config.storage
+package moe.nea.notfimament.gui.config.storage
 
 import java.nio.file.Path
 import kotlinx.serialization.ExperimentalSerializationApi
@@ -15,7 +15,7 @@ import kotlin.io.path.inputStream
 import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.nameWithoutExtension
 import kotlin.io.path.outputStream
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 // TODO: make this class write / read async
 class FirstLevelSplitJsonFolder(

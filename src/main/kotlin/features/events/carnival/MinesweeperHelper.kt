@@ -1,5 +1,5 @@
 
-package moe.nea.firmament.features.events.carnival
+package moe.nea.notfimament.features.events.carnival
 
 import io.github.notenoughupdates.moulconfig.observer.ObservableList
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigPlatform
@@ -13,25 +13,25 @@ import net.minecraft.network.chat.ClickEvent
 import net.minecraft.network.chat.Component
 import net.minecraft.core.BlockPos
 import net.minecraft.world.level.LevelAccessor
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.AttackBlockEvent
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.EntityUpdateEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.features.debug.DebugLogger
-import moe.nea.firmament.util.LegacyFormattingCode
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MoulConfigUtils
-import moe.nea.firmament.util.ScreenUtil
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.mc.createSkullItem
-import moe.nea.firmament.util.render.RenderInWorldContext
-import moe.nea.firmament.util.setSkyBlockFirmamentUiId
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.AttackBlockEvent
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.EntityUpdateEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.features.debug.DebugLogger
+import moe.nea.notfimament.util.LegacyFormattingCode
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MoulConfigUtils
+import moe.nea.notfimament.util.ScreenUtil
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.mc.createSkullItem
+import moe.nea.notfimament.util.render.RenderInWorldContext
+import moe.nea.notfimament.util.setSkyBlockFirmamentUiId
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.useMatch
 
 object MinesweeperHelper {
     val sandBoxLow = BlockPos(-112, 72, -11)

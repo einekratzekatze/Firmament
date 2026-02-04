@@ -1,10 +1,10 @@
-package moe.nea.firmament.test.util.skyblock
+package moe.nea.notfimament.test.util.skyblock
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
-import moe.nea.firmament.test.testutil.ItemResources
-import moe.nea.firmament.util.skyblock.SackUtil
-import moe.nea.firmament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.test.testutil.ItemResources
+import moe.nea.notfimament.util.skyblock.SackUtil
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
 
 class SackUtilTest {
 	@Test

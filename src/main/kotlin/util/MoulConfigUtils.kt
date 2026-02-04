@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import io.github.notenoughupdates.moulconfig.common.IMinecraft
 import io.github.notenoughupdates.moulconfig.common.MyResourceLocation
@@ -28,13 +28,13 @@ import net.minecraft.client.gui.screens.Screen
 import com.mojang.blaze3d.platform.InputConstants
 import me.shedaniel.math.Rectangle
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.gui.BarComponent
-import moe.nea.firmament.gui.FirmButtonComponent
-import moe.nea.firmament.gui.FirmHoverComponent
-import moe.nea.firmament.gui.FixedComponent
-import moe.nea.firmament.gui.ImageComponent
-import moe.nea.firmament.gui.TickComponent
-import moe.nea.firmament.util.render.isUntranslatedGuiDrawContext
+import moe.nea.notfimament.gui.BarComponent
+import moe.nea.notfimament.gui.FirmButtonComponent
+import moe.nea.notfimament.gui.FirmHoverComponent
+import moe.nea.notfimament.gui.FixedComponent
+import moe.nea.notfimament.gui.ImageComponent
+import moe.nea.notfimament.gui.TickComponent
+import moe.nea.notfimament.util.render.isUntranslatedGuiDrawContext
 
 object MoulConfigUtils {
 	@JvmStatic
@@ -344,6 +344,6 @@ object MoulConfigUtils {
 
 
 	fun loadGui(name: String, bindTo: Any): GuiContext {
-		return GuiContext(universe.load(bindTo, MyResourceLocation("firmament", "gui/$name.xml")))
+		return GuiContext(universe.load(bindTo, MyResourceLocation("notfimament", "gui/$name.xml")))
 	}
 }

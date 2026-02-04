@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.misc
+package moe.nea.notfimament.features.misc
 
 import com.mojang.brigadier.arguments.IntegerArgumentType
 import kotlinx.coroutines.delay
@@ -6,25 +6,25 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.seconds
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.DurationArgumentType
-import moe.nea.firmament.commands.RestArgumentType
-import moe.nea.firmament.commands.get
-import moe.nea.firmament.commands.thenArgument
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.util.CommonSoundEffects
-import moe.nea.firmament.util.FirmFormatters
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MinecraftDispatcher
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.clickCommand
-import moe.nea.firmament.util.lime
-import moe.nea.firmament.util.red
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.yellow
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.DurationArgumentType
+import moe.nea.notfimament.commands.RestArgumentType
+import moe.nea.notfimament.commands.get
+import moe.nea.notfimament.commands.thenArgument
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.util.CommonSoundEffects
+import moe.nea.notfimament.util.FirmFormatters
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MinecraftDispatcher
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.clickCommand
+import moe.nea.notfimament.util.lime
+import moe.nea.notfimament.util.red
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.yellow
 
 object TimerFeature {
 	data class Timer(

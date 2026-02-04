@@ -1,4 +1,4 @@
-package moe.nea.firmament.apis
+package moe.nea.notfimament.apis
 
 import java.util.UUID
 import kotlinx.coroutines.Deferred
@@ -6,10 +6,10 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.future.await
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MinecraftDispatcher
-import moe.nea.firmament.util.net.HttpUtil
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MinecraftDispatcher
+import moe.nea.notfimament.util.net.HttpUtil
 
 object Routes {
 	private val nameToUUID: MutableMap<String, Deferred<UUID?>> = mutableMapOf()

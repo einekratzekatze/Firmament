@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import io.github.notenoughupdates.moulconfig.gui.component.TextComponent
 import kotlinx.serialization.json.Json
@@ -8,11 +8,11 @@ import kotlinx.serialization.json.encodeToJsonElement
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.network.chat.MutableComponent
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.gui.FirmButtonComponent
-import moe.nea.firmament.jarvis.JarvisIntegration
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.gui.FirmButtonComponent
+import moe.nea.notfimament.jarvis.JarvisIntegration
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class HudMetaHandler(
     val config: ManagedConfig,

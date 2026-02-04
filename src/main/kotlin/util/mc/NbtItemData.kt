@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import net.minecraft.core.component.DataComponents
 import net.minecraft.world.item.component.ItemLore

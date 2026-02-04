@@ -1,14 +1,14 @@
-package moe.nea.firmament.util.data
+package moe.nea.notfimament.util.data
 
 import java.util.UUID
 import java.util.concurrent.CompletableFuture
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.buildJsonObject
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.gui.config.storage.ConfigStorageClass
-import moe.nea.firmament.gui.config.storage.FirmamentConfigLoader
-import moe.nea.firmament.util.SBData
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.gui.config.storage.ConfigStorageClass
+import moe.nea.notfimament.gui.config.storage.FirmamentConfigLoader
+import moe.nea.notfimament.util.SBData
 
 sealed class IDataHolder<T> {
 	fun markDirty(future: CompletableFuture<Void?>? = null) {

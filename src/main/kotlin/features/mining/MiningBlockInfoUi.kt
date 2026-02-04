@@ -1,14 +1,14 @@
-package moe.nea.firmament.features.mining
+package moe.nea.notfimament.features.mining
 
 import io.github.notenoughupdates.moulconfig.observer.ObservableList
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigPlatform
 import io.github.notenoughupdates.moulconfig.xml.Bind
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.world.item.ItemStack
-import moe.nea.firmament.repo.MiningRepoData
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.MoulConfigUtils
-import moe.nea.firmament.util.SkyBlockIsland
+import moe.nea.notfimament.repo.MiningRepoData
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.MoulConfigUtils
+import moe.nea.notfimament.util.SkyBlockIsland
 
 object MiningBlockInfoUi {
 	class MiningInfo(miningData: MiningRepoData) {

@@ -33,7 +33,7 @@ jobs:
                 uses: actions/upload-artifact@v4
                 with:
                     name: built-mod-jar
-                    path: build/libs/Firmament-*.jar
+                    path: build/libs/Notfimament-*.jar
                     exclude: |
                         build/libs/*-sources.jar
                         build/libs/*-api.jar

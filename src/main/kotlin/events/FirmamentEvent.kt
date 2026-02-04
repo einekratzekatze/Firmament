@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 /**
  * An event that can be fired by a [FirmamentEventBus].

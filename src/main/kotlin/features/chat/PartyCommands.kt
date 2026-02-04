@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.chat
+package moe.nea.notfimament.features.chat
 
 import com.mojang.brigadier.CommandDispatcher
 import com.mojang.brigadier.StringReader
@@ -6,19 +6,19 @@ import com.mojang.brigadier.exceptions.CommandSyntaxException
 import com.mojang.brigadier.tree.LiteralCommandNode
 import kotlin.time.Duration.Companion.seconds
 import net.minecraft.core.BlockPos
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.CaseInsensitiveLiteralCommandNode
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.PartyMessageReceivedEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.CaseInsensitiveLiteralCommandNode
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.PartyMessageReceivedEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.useMatch
 
 object PartyCommands {
 

@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import com.mojang.serialization.Codec
 import io.netty.buffer.ByteBuf
@@ -6,10 +6,10 @@ import net.minecraft.core.component.DataComponentType
 import net.minecraft.network.codec.StreamCodec
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.core.Registry
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ClientInitEvent
-import moe.nea.firmament.repo.MiningRepoData
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ClientInitEvent
+import moe.nea.notfimament.repo.MiningRepoData
 
 object FirmamentDataComponentTypes {
 

@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import com.mojang.serialization.DynamicOps
 import java.util.Optional

@@ -1,10 +1,10 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import java.util.concurrent.CopyOnWriteArrayList
 import org.apache.commons.lang3.reflect.TypeUtils
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
 
 /**
  * A pubsub event bus.

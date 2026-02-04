@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 data class TickEvent(val tickCount: Int) : FirmamentEvent() {
 	// TODO: introduce a client / server tick system.

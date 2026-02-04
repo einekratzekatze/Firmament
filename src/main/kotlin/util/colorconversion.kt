@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import net.minecraft.network.chat.TextColor
 import net.minecraft.world.item.DyeColor

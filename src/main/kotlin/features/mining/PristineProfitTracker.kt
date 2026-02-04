@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.mining
+package moe.nea.notfimament.features.mining
 
 import io.github.notenoughupdates.moulconfig.xml.Bind
 import org.joml.Vector2i
@@ -6,18 +6,18 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.serializer
 import kotlin.time.Duration.Companion.seconds
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.gui.hud.MoulConfigHud
-import moe.nea.firmament.util.BazaarPriceStrategy
-import moe.nea.firmament.util.FirmFormatters.formatCommas
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.StringUtil.parseIntWithComma
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.data.ProfileSpecificDataHolder
-import moe.nea.firmament.util.formattedString
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.gui.hud.MoulConfigHud
+import moe.nea.notfimament.util.BazaarPriceStrategy
+import moe.nea.notfimament.util.FirmFormatters.formatCommas
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.StringUtil.parseIntWithComma
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.ProfileSpecificDataHolder
+import moe.nea.notfimament.util.formattedString
+import moe.nea.notfimament.util.useMatch
 
 object PristineProfitTracker {
 	val identifier: String

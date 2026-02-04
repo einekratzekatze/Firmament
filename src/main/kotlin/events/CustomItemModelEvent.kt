@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import java.util.Objects
 import java.util.Optional
@@ -6,9 +6,9 @@ import kotlin.jvm.optionals.getOrNull
 import net.minecraft.core.component.DataComponents
 import net.minecraft.world.item.ItemStack
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.util.collections.WeakCache
-import moe.nea.firmament.util.collections.WeakCache.CacheFunction
-import moe.nea.firmament.util.mc.IntrospectableItemModelManager
+import moe.nea.notfimament.util.collections.WeakCache
+import moe.nea.notfimament.util.collections.WeakCache.CacheFunction
+import moe.nea.notfimament.util.mc.IntrospectableItemModelManager
 
 // TODO: assert an order on these events
 data class CustomItemModelEvent(

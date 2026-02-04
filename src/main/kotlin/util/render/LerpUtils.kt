@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.render
+package moe.nea.notfimament.util.render
 
 import me.shedaniel.math.Color
 import kotlin.math.absoluteValue

@@ -1,15 +1,15 @@
-package moe.nea.firmament.util.skyblock
+package moe.nea.notfimament.util.skyblock
 
 import kotlin.time.Duration
 import net.minecraft.world.item.ItemStack
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.directLiteralStringContent
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.parseShortNumber
-import moe.nea.firmament.util.parseTimePattern
-import moe.nea.firmament.util.unformattedString
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.directLiteralStringContent
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.parseShortNumber
+import moe.nea.notfimament.util.parseTimePattern
+import moe.nea.notfimament.util.unformattedString
+import moe.nea.notfimament.util.useMatch
 
 object AbilityUtils {
 	data class ItemAbility(

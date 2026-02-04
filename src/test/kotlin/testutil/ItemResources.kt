@@ -1,4 +1,4 @@
-package moe.nea.firmament.test.testutil
+package moe.nea.notfimament.test.testutil
 
 import com.mojang.datafixers.DSL
 import com.mojang.serialization.Dynamic
@@ -15,10 +15,10 @@ import net.minecraft.nbt.TagParser
 import net.minecraft.resources.RegistryOps
 import net.minecraft.network.chat.Component
 import net.minecraft.network.chat.ComponentSerialization
-import moe.nea.firmament.features.debug.ExportedTestConstantMeta
-import moe.nea.firmament.test.FirmTestBootstrap
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.mc.MCTabListAPI
+import moe.nea.notfimament.features.debug.ExportedTestConstantMeta
+import moe.nea.notfimament.test.FirmTestBootstrap
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.mc.MCTabListAPI
 
 object ItemResources {
 	init {

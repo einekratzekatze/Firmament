@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"plugin": "moe.nea.notfimament.init.MixinPlugin",
+	"package": "moe.nea.notfimament.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "Notfimament-refmap.json",
+	"mixinextras": {
+		"minVersion": "0.5.0"
+	},
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

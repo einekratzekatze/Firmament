@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.debug
+package moe.nea.notfimament.features.debug
 
 import com.mojang.authlib.GameProfile
 import kotlinx.serialization.json.JsonPrimitive
@@ -10,20 +10,20 @@ import net.minecraft.world.item.component.ResolvableProfile
 import net.minecraft.world.entity.EquipmentSlot
 import net.minecraft.world.entity.LivingEntity
 import net.minecraft.world.phys.Vec3
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.EntityUpdateEvent
-import moe.nea.firmament.events.IsSlotProtectedEvent
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.extraAttributes
-import moe.nea.firmament.util.json.toJsonArray
-import moe.nea.firmament.util.math.GChainReconciliation.shortenCycle
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.rawSkyBlockId
-import moe.nea.firmament.util.toTicks
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.EntityUpdateEvent
+import moe.nea.notfimament.events.IsSlotProtectedEvent
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.extraAttributes
+import moe.nea.notfimament.util.json.toJsonArray
+import moe.nea.notfimament.util.math.GChainReconciliation.shortenCycle
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.rawSkyBlockId
+import moe.nea.notfimament.util.toTicks
+import moe.nea.notfimament.util.tr
 
 
 object SkinPreviews {

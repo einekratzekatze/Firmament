@@ -1,4 +1,4 @@
-package moe.nea.firmament.keybindings
+package moe.nea.notfimament.keybindings
 
 import java.util.BitSet
 import org.lwjgl.glfw.GLFW

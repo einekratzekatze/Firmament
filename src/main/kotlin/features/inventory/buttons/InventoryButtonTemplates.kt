@@ -1,10 +1,10 @@
-package moe.nea.firmament.features.inventory.buttons
+package moe.nea.notfimament.features.inventory.buttons
 
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TemplateUtil
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TemplateUtil
 
 object InventoryButtonTemplates {
 

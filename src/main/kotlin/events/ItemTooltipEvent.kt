@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.world.item.Item.TooltipContext
 import net.minecraft.world.item.ItemStack

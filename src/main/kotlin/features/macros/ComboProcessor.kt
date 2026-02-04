@@ -1,15 +1,15 @@
-package moe.nea.firmament.features.macros
+package moe.nea.notfimament.features.macros
 
 import kotlin.time.Duration.Companion.seconds
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HudRenderEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.WorldKeyboardEvent
-import moe.nea.firmament.keybindings.SavedKeyBinding
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HudRenderEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.WorldKeyboardEvent
+import moe.nea.notfimament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.tr
 
 object ComboProcessor {
 

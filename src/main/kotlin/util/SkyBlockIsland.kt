@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
@@ -7,7 +7,7 @@ import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
 import kotlinx.serialization.descriptors.SerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
-import moe.nea.firmament.repo.RepoManager
+import moe.nea.notfimament.repo.RepoManager
 
 @Serializable(with = SkyBlockIsland.Serializer::class)
 class SkyBlockIsland

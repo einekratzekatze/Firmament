@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import moe.nea.jarvis.api.JarvisHud
 import org.joml.Matrix3x2f
@@ -7,7 +7,7 @@ import org.joml.Vector2ic
 import kotlinx.serialization.Serializable
 import net.minecraft.network.chat.Component
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.jarvis.JarvisIntegration
+import moe.nea.notfimament.jarvis.JarvisIntegration
 
 @Serializable
 data class HudPosition(

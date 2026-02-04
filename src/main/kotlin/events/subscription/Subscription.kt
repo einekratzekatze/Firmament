@@ -1,8 +1,8 @@
 
-package moe.nea.firmament.events.subscription
+package moe.nea.notfimament.events.subscription
 
-import moe.nea.firmament.events.FirmamentEvent
-import moe.nea.firmament.events.FirmamentEventBus
+import moe.nea.notfimament.events.FirmamentEvent
+import moe.nea.notfimament.events.FirmamentEventBus
 
 
 data class Subscription<T : FirmamentEvent>(

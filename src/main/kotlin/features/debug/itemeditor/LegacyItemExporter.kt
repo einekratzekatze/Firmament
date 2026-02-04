@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.debug.itemeditor
+package moe.nea.notfimament.features.debug.itemeditor
 
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement
@@ -19,27 +19,27 @@ import net.minecraft.nbt.StringTag
 import net.minecraft.tags.ItemTags
 import net.minecraft.network.chat.Component
 import net.minecraft.util.Unit
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ClientStartedEvent
-import moe.nea.firmament.features.debug.ExportedTestConstantMeta
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.util.HypixelPetInfo
-import moe.nea.firmament.util.LegacyTagWriter.Companion.toLegacyString
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.StringUtil.words
-import moe.nea.firmament.util.directLiteralStringContent
-import moe.nea.firmament.util.extraAttributes
-import moe.nea.firmament.util.getLegacyFormatString
-import moe.nea.firmament.util.json.toJsonArray
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.mc.toNbtList
-import moe.nea.firmament.util.modifyExtraAttributes
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.skyblock.Rarity
-import moe.nea.firmament.util.transformEachRecursively
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ClientStartedEvent
+import moe.nea.notfimament.features.debug.ExportedTestConstantMeta
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.util.HypixelPetInfo
+import moe.nea.notfimament.util.LegacyTagWriter.Companion.toLegacyString
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.StringUtil.words
+import moe.nea.notfimament.util.directLiteralStringContent
+import moe.nea.notfimament.util.extraAttributes
+import moe.nea.notfimament.util.getLegacyFormatString
+import moe.nea.notfimament.util.json.toJsonArray
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.mc.toNbtList
+import moe.nea.notfimament.util.modifyExtraAttributes
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.skyblock.Rarity
+import moe.nea.notfimament.util.transformEachRecursively
+import moe.nea.notfimament.util.unformattedString
 
 class LegacyItemExporter private constructor(var itemStack: ItemStack) {
 	init {
@@ -230,7 +230,7 @@ class LegacyItemExporter private constructor(var itemStack: ItemStack) {
 			put("internalname", sbId?.neuItem)
 			put("clickcommand", "")
 			put("crafttext", "")
-			put("modver", "Firmament ${Firmament.version.friendlyString}")
+			put("modver", "Notfimament ${Firmament.version.friendlyString}")
 			put("infoType", "")
 			put("info", JsonArray(listOf()))
 		}

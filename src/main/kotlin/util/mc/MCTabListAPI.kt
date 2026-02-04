@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import com.mojang.serialization.Codec
 import com.mojang.serialization.codecs.RecordCodecBuilder
@@ -9,18 +9,18 @@ import net.minecraft.nbt.NbtOps
 import net.minecraft.world.scores.PlayerTeam
 import net.minecraft.network.chat.Component
 import net.minecraft.network.chat.ComponentSerialization
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.commands.thenLiteral
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.features.debug.DeveloperFeatures
-import moe.nea.firmament.features.debug.ExportedTestConstantMeta
-import moe.nea.firmament.mixins.accessor.AccessorPlayerListHud
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.intoOptional
-import moe.nea.firmament.util.mc.SNbtFormatter.Companion.toPrettyString
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.commands.thenLiteral
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.features.debug.DeveloperFeatures
+import moe.nea.notfimament.features.debug.ExportedTestConstantMeta
+import moe.nea.notfimament.mixins.accessor.AccessorPlayerListHud
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.intoOptional
+import moe.nea.notfimament.util.mc.SNbtFormatter.Companion.toPrettyString
 
 object MCTabListAPI {
 

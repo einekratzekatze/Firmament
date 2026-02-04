@@ -1,7 +1,7 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import io.github.moulberry.repo.data.Rarity
-import moe.nea.firmament.util.HypixelPetInfo
+import moe.nea.notfimament.util.HypixelPetInfo
 
 // TODO: add in extra data like pet info, into this structure
 data class PetData(

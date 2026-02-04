@@ -1,13 +1,13 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import me.shedaniel.math.Point
 import me.shedaniel.math.Rectangle
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.client.renderer.RenderPipelines
-import moe.nea.firmament.util.mc.CommonTextures
-import moe.nea.firmament.util.render.enableScissorWithTranslation
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.util.mc.CommonTextures
+import moe.nea.notfimament.util.render.enableScissorWithTranslation
+import moe.nea.notfimament.util.tr
 
 class RecipeScreen(
 	val recipes: List<RenderableRecipe<*>>,

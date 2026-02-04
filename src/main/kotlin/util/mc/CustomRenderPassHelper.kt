@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import com.mojang.blaze3d.buffers.GpuBuffer
 import com.mojang.blaze3d.buffers.GpuBufferSlice
@@ -21,8 +21,8 @@ import com.mojang.blaze3d.vertex.ByteBufferBuilder
 import org.joml.Matrix4f
 import net.minecraft.resources.Identifier
 import net.minecraft.util.Mth
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
 
 
 class CustomRenderPassHelper(

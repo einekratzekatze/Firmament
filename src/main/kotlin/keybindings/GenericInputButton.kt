@@ -1,4 +1,4 @@
-package moe.nea.firmament.keybindings
+package moe.nea.notfimament.keybindings
 
 import org.lwjgl.glfw.GLFW
 import kotlinx.serialization.KSerializer
@@ -21,15 +21,15 @@ import net.minecraft.client.input.MouseButtonInfo
 import com.mojang.blaze3d.platform.InputConstants
 import com.mojang.blaze3d.platform.MacosUtil
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.mc.InitLevel
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.mc.InitLevel
 
 @Serializable(with = GenericInputButton.Serializer::class)
 sealed interface GenericInputButton {
 
 	object Serializer : KSerializer<GenericInputButton> {
 		override val descriptor: SerialDescriptor
-			get() = SerialDescriptor("Firmament:GenericInputButton", JsonElement.serializer().descriptor)
+			get() = SerialDescriptor("Notfimament:GenericInputButton", JsonElement.serializer().descriptor)
 
 		override fun serialize(
 			encoder: Encoder,

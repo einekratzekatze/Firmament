@@ -1,4 +1,4 @@
-package moe.nea.firmament.commands
+package moe.nea.notfimament.commands
 
 import com.mojang.brigadier.arguments.ArgumentType
 import com.mojang.brigadier.builder.ArgumentBuilder
@@ -10,9 +10,9 @@ import java.lang.reflect.Type
 import java.lang.reflect.TypeVariable
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource
 import kotlinx.coroutines.launch
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.MinecraftDispatcher
-import moe.nea.firmament.util.iterate
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.MinecraftDispatcher
+import moe.nea.notfimament.util.iterate
 
 
 typealias DefaultSource = FabricClientCommandSource

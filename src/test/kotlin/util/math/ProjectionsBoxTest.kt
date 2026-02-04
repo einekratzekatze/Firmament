@@ -1,4 +1,4 @@
-package moe.nea.firmament.test.util.math
+package moe.nea.notfimament.test.util.math
 
 import java.util.stream.Stream
 import org.junit.jupiter.api.Assertions
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
 import kotlin.streams.asStream
 import net.minecraft.world.phys.Vec2
-import moe.nea.firmament.util.math.Projections
+import moe.nea.notfimament.util.math.Projections
 
 class ProjectionsBoxTest {
 	val Double.degrees get() = Math.toRadians(this)

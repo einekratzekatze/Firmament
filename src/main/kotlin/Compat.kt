@@ -1,7 +1,7 @@
-package moe.nea.firmament
+package moe.nea.notfimament
 
-import moe.nea.firmament.util.compatloader.CompatMeta
-import moe.nea.firmament.util.compatloader.ICompatMeta
+import moe.nea.notfimament.util.compatloader.CompatMeta
+import moe.nea.notfimament.util.compatloader.ICompatMeta
 
 @CompatMeta
 object Compat : ICompatMeta {

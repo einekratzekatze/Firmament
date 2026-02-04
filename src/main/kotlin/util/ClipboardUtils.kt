@@ -1,8 +1,8 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 object ClipboardUtils {
     fun setTextContent(string: String) {

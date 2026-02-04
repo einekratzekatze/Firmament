@@ -1,8 +1,8 @@
-package moe.nea.firmament.test.util
+package moe.nea.notfimament.test.util
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
-import moe.nea.firmament.util.removeColorCodes
+import moe.nea.notfimament.util.removeColorCodes
 
 
 class ColorCodeTest {

@@ -1,12 +1,12 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.client.renderer.GameRenderer
 import net.minecraft.client.renderer.texture.OverlayTexture
 import net.minecraft.client.renderer.entity.state.EntityRenderState
 import net.minecraft.world.entity.Entity
 import net.minecraft.world.entity.LivingEntity
-import moe.nea.firmament.events.EntityRenderTintEvent.Companion.overlayOverride
-import moe.nea.firmament.util.render.TintedOverlayTexture
+import moe.nea.notfimament.events.EntityRenderTintEvent.Companion.overlayOverride
+import moe.nea.notfimament.util.render.TintedOverlayTexture
 
 /**
  * Change the tint color of a [LivingEntity]
@@ -30,9 +30,9 @@ class EntityRenderTintEvent(
 		 * Currently supported layers: [net.minecraft.client.render.entity.equipment.EquipmentRenderer], [net.minecraft.client.render.entity.model.PlayerEntityModel], as well as some others naturally.
 		 *
 		 * @see TintedOverlayTexture
-		 * @see moe.nea.firmament.mixins.render.entitytints.ReplaceOverlayTexture
-		 * @see moe.nea.firmament.mixins.render.entitytints.UseOverlayableEquipmentRenderer
-		 * @see moe.nea.firmament.mixins.render.entitytints.UseOverlayableHeadFeatureRenderer
+		 * @see moe.nea.notfimament.mixins.render.entitytints.ReplaceOverlayTexture
+		 * @see moe.nea.notfimament.mixins.render.entitytints.UseOverlayableEquipmentRenderer
+		 * @see moe.nea.notfimament.mixins.render.entitytints.UseOverlayableHeadFeatureRenderer
 		 */
 		@JvmField
 		var overlayOverride: OverlayTexture? = null

@@ -1,10 +1,10 @@
-package moe.nea.firmament.features
+package moe.nea.notfimament.features
 
-import moe.nea.firmament.events.FirmamentEvent
-import moe.nea.firmament.events.subscription.Subscription
-import moe.nea.firmament.events.subscription.SubscriptionList
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.compatloader.ICompatMeta
+import moe.nea.notfimament.events.FirmamentEvent
+import moe.nea.notfimament.events.subscription.Subscription
+import moe.nea.notfimament.events.subscription.SubscriptionList
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.compatloader.ICompatMeta
 
 object FeatureManager {
 

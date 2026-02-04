@@ -1,5 +1,5 @@
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.builtins.serializer

@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.chat
+package moe.nea.notfimament.features.chat
 
 import com.mojang.brigadier.Message
 import com.mojang.brigadier.arguments.StringArgumentType.string
@@ -10,18 +10,18 @@ import com.mojang.brigadier.exceptions.SimpleCommandExceptionType
 import kotlin.concurrent.thread
 import net.minecraft.SharedConstants
 import net.minecraft.commands.BrigadierExceptions
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.get
-import moe.nea.firmament.commands.suggestsList
-import moe.nea.firmament.commands.thenArgument
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.MaskCommands
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.get
+import moe.nea.notfimament.commands.suggestsList
+import moe.nea.notfimament.commands.thenArgument
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.MaskCommands
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.tr
 
 object AutoCompletions {
 

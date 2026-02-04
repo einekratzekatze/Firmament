@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import java.util.SortedMap
 import kotlinx.serialization.KSerializer

@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.inventory.buttons
+package moe.nea.notfimament.features.inventory.buttons
 
 import io.github.notenoughupdates.moulconfig.common.IItemStack
 import io.github.notenoughupdates.moulconfig.gui.component.PanelComponent
@@ -19,11 +19,11 @@ import com.mojang.blaze3d.platform.InputConstants
 import net.minecraft.network.chat.Component
 import net.minecraft.util.Mth
 import net.minecraft.world.phys.Vec2
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.FragmentGuiScreen
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MoulConfigUtils
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.FragmentGuiScreen
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MoulConfigUtils
+import moe.nea.notfimament.util.tr
 
 class InventoryButtonEditor(
 	val lastGuiRect: Rectangle,

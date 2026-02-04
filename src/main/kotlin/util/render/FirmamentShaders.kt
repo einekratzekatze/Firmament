@@ -1,7 +1,7 @@
-package moe.nea.firmament.util.render
+package moe.nea.notfimament.util.render
 
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.DebugInstantiateEvent
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.DebugInstantiateEvent
 
 object FirmamentShaders {
 

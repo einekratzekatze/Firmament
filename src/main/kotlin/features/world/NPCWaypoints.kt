@@ -1,11 +1,11 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.ReloadRegistrationEvent
-import moe.nea.firmament.util.MoulConfigUtils
-import moe.nea.firmament.util.ScreenUtil
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.ReloadRegistrationEvent
+import moe.nea.notfimament.util.MoulConfigUtils
+import moe.nea.notfimament.util.ScreenUtil
 
 object NPCWaypoints {
 

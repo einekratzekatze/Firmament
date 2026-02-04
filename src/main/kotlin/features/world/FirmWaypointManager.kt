@@ -1,23 +1,23 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import com.mojang.brigadier.arguments.StringArgumentType
 import kotlinx.serialization.serializer
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.DefaultSource
-import moe.nea.firmament.commands.RestArgumentType
-import moe.nea.firmament.commands.get
-import moe.nea.firmament.commands.suggestsList
-import moe.nea.firmament.commands.thenArgument
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.commands.thenLiteral
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.FirmFormatters
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TemplateUtil
-import moe.nea.firmament.util.data.DataHolder
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.DefaultSource
+import moe.nea.notfimament.commands.RestArgumentType
+import moe.nea.notfimament.commands.get
+import moe.nea.notfimament.commands.suggestsList
+import moe.nea.notfimament.commands.thenArgument
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.commands.thenLiteral
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.FirmFormatters
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TemplateUtil
+import moe.nea.notfimament.util.data.DataHolder
+import moe.nea.notfimament.util.tr
 
 object FirmWaypointManager {
 	object DConfig : DataHolder<MutableMap<String, FirmWaypoints>>(serializer(), "waypoints", ::mutableMapOf)

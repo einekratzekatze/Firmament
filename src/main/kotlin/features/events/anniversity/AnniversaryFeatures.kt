@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.events.anniversity
+package moe.nea.notfimament.features.events.anniversity
 
 import io.github.notenoughupdates.moulconfig.observer.ObservableList
 import io.github.notenoughupdates.moulconfig.xml.Bind
@@ -7,23 +7,23 @@ import kotlin.time.Duration.Companion.seconds
 import net.minecraft.network.chat.Component
 import net.minecraft.core.BlockPos
 import net.minecraft.world.entity.animal.pig.Pig
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.EntityInteractionEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.gui.hud.MoulConfigHud
-import moe.nea.firmament.repo.ExpensiveItemCacheApi
-import moe.nea.firmament.repo.ItemNameLookup
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SHORT_NUMBER_FORMAT
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.parseShortNumber
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.EntityInteractionEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.gui.hud.MoulConfigHud
+import moe.nea.notfimament.repo.ExpensiveItemCacheApi
+import moe.nea.notfimament.repo.ItemNameLookup
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SHORT_NUMBER_FORMAT
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.parseShortNumber
+import moe.nea.notfimament.util.useMatch
 
 object AnniversaryFeatures {
 	val identifier: String

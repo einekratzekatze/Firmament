@@ -1,12 +1,12 @@
-package moe.nea.firmament.keybindings
+package moe.nea.notfimament.keybindings
 
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper
 import net.minecraft.client.KeyMapping
 import com.mojang.blaze3d.platform.InputConstants
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.gui.config.ManagedOption
-import moe.nea.firmament.util.TestUtil
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.gui.config.ManagedOption
+import moe.nea.notfimament.util.TestUtil
+import moe.nea.notfimament.util.data.ManagedConfig
 
 object FirmamentKeyBindings {
 	val cats = mutableMapOf<ManagedConfig.Category, KeyMapping.Category>()

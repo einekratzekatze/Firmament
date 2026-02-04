@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui
+package moe.nea.notfimament.gui
 
 import io.github.notenoughupdates.moulconfig.common.text.StructuredText
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
@@ -8,7 +8,7 @@ import io.github.notenoughupdates.moulconfig.gui.MouseEvent
 import java.util.function.BiFunction
 import java.util.function.Supplier
 import kotlin.time.Duration
-import moe.nea.firmament.util.TimeMark
+import moe.nea.notfimament.util.TimeMark
 
 class FirmHoverComponent(
 	val child: GuiComponent,

@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.Executor

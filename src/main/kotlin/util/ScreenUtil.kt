@@ -1,11 +1,11 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents
 import net.minecraft.client.Minecraft
 import net.minecraft.client.gui.screens.Screen
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 object ScreenUtil {
     init {

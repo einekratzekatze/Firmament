@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import java.util.Optional
 import me.shedaniel.math.Dimension
@@ -10,18 +10,18 @@ import net.minecraft.network.chat.Component
 import net.minecraft.world.item.Item
 import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.TooltipFlag
-import moe.nea.firmament.api.v1.FirmamentItemWidget
-import moe.nea.firmament.events.ItemTooltipEvent
-import moe.nea.firmament.keybindings.SavedKeyBinding
-import moe.nea.firmament.repo.ExpensiveItemCacheApi
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.repo.recipes.RecipeLayouter
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.FirmFormatters.shortFormat
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.darkGrey
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.api.v1.FirmamentItemWidget
+import moe.nea.notfimament.events.ItemTooltipEvent
+import moe.nea.notfimament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.repo.ExpensiveItemCacheApi
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.repo.recipes.RecipeLayouter
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.FirmFormatters.shortFormat
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.darkGrey
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
 
 class ItemSlotWidget(
 	point: Point,

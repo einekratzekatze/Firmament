@@ -2,7 +2,7 @@
 
 @file:UseSerializers(DashlessUUIDSerializer::class, InstantAsLongSerializer::class)
 
-package moe.nea.firmament.apis
+package moe.nea.notfimament.apis
 
 import io.github.moulberry.repo.constants.Leveling
 import io.github.moulberry.repo.data.Rarity
@@ -14,12 +14,12 @@ import kotlinx.serialization.UseSerializers
 import kotlin.reflect.KProperty1
 import net.minecraft.world.item.DyeColor
 import net.minecraft.ChatFormatting
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.LegacyFormattingCode
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.assertNotNullOr
-import moe.nea.firmament.util.json.DashlessUUIDSerializer
-import moe.nea.firmament.util.json.InstantAsLongSerializer
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.LegacyFormattingCode
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.assertNotNullOr
+import moe.nea.notfimament.util.json.DashlessUUIDSerializer
+import moe.nea.notfimament.util.json.InstantAsLongSerializer
 
 
 @Serializable

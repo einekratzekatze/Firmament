@@ -1,9 +1,9 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.util.unformattedString
 
 /**
  * Filter whether the user should see a chat message altogether. May or may not be called for every chat packet sent by

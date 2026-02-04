@@ -1,11 +1,11 @@
-package moe.nea.firmament.repo.recipes
+package moe.nea.notfimament.repo.recipes
 
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
 import me.shedaniel.math.Point
 import me.shedaniel.math.Rectangle
 import net.minecraft.network.chat.Component
 import net.minecraft.world.entity.LivingEntity
-import moe.nea.firmament.repo.SBItemStack
+import moe.nea.notfimament.repo.SBItemStack
 
 interface RecipeLayouter {
 	enum class SlotKind {

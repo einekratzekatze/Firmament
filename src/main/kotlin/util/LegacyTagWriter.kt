@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import kotlinx.serialization.json.JsonPrimitive
 import net.minecraft.nbt.CollectionTag
@@ -12,7 +12,7 @@ import net.minecraft.nbt.IntTag
 import net.minecraft.nbt.LongTag
 import net.minecraft.nbt.ShortTag
 import net.minecraft.nbt.StringTag
-import moe.nea.firmament.util.mc.SNbtFormatter.Companion.SIMPLE_NAME
+import moe.nea.notfimament.util.mc.SNbtFormatter.Companion.SIMPLE_NAME
 
 class LegacyTagWriter(val compact: Boolean) {
 	companion object {

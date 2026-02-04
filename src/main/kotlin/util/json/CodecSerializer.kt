@@ -6,7 +6,7 @@ import kotlinx.serialization.descriptors.SerialDescriptor
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.JsonElement
-import moe.nea.firmament.util.json.KJsonOps
+import moe.nea.notfimament.util.json.KJsonOps
 
 abstract class CodecSerializer<T>(val codec: Codec<T>) : KSerializer<T> {
 	override val descriptor: SerialDescriptor

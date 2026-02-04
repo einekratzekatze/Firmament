@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo.recipes
+package moe.nea.notfimament.repo.recipes
 
 import io.github.moulberry.repo.NEURepository
 import io.github.moulberry.repo.data.NEUCraftingRecipe
@@ -8,9 +8,9 @@ import net.minecraft.world.level.block.Blocks
 import net.minecraft.world.item.ItemStack
 import net.minecraft.network.chat.Component
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.util.tr
 
 object SBCraftingRecipeRenderer : GenericRecipeRenderer<NEUCraftingRecipe> {
 	override fun render(

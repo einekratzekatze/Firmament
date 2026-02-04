@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import io.github.notenoughupdates.moulconfig.gui.component.CenterComponent
 import io.github.notenoughupdates.moulconfig.gui.component.SwitchComponent
@@ -9,7 +9,7 @@ import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonPrimitive
 import kotlinx.serialization.json.boolean
 import kotlinx.serialization.json.jsonPrimitive
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class BooleanHandler(val config: ManagedConfig) : ManagedConfig.OptionHandler<Boolean> {
     override fun toJson(element: Boolean): JsonElement? {

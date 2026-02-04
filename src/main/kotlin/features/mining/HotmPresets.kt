@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.mining
+package moe.nea.notfimament.features.mining
 
 import me.shedaniel.math.Rectangle
 import kotlinx.serialization.Serializable
@@ -12,27 +12,27 @@ import net.minecraft.world.item.Items
 import net.minecraft.world.inventory.ChestMenu
 import net.minecraft.world.inventory.Slot
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.ChestInventoryUpdateEvent
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.ScreenChangeEvent
-import moe.nea.firmament.events.SlotRenderEvents
-import moe.nea.firmament.mixins.accessor.AccessorHandledScreen
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TemplateUtil
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.accessors.castAccessor
-import moe.nea.firmament.util.customgui.CustomGui
-import moe.nea.firmament.util.customgui.customGui
-import moe.nea.firmament.util.mc.CommonTextures
-import moe.nea.firmament.util.mc.SlotUtils.clickRightMouseButton
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.render.drawGuiTexture
-import moe.nea.firmament.util.unformattedString
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.ChestInventoryUpdateEvent
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.ScreenChangeEvent
+import moe.nea.notfimament.events.SlotRenderEvents
+import moe.nea.notfimament.mixins.accessor.AccessorHandledScreen
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TemplateUtil
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.accessors.castAccessor
+import moe.nea.notfimament.util.customgui.CustomGui
+import moe.nea.notfimament.util.customgui.customGui
+import moe.nea.notfimament.util.mc.CommonTextures
+import moe.nea.notfimament.util.mc.SlotUtils.clickRightMouseButton
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.render.drawGuiTexture
+import moe.nea.notfimament.util.unformattedString
+import moe.nea.notfimament.util.useMatch
 
 object HotmPresets {
 	val SHARE_PREFIX = "FIRMHOTM/"

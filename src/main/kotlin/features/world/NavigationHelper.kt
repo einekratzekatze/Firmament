@@ -1,20 +1,20 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import io.github.moulberry.repo.constants.Islands
 import net.minecraft.network.chat.Component
 import net.minecraft.core.BlockPos
 import net.minecraft.core.Position
 import net.minecraft.core.Vec3i
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.SkyblockServerUpdateEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.SkyBlockIsland
-import moe.nea.firmament.util.WarpUtil
-import moe.nea.firmament.util.render.RenderInWorldContext
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.SkyblockServerUpdateEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.SkyBlockIsland
+import moe.nea.notfimament.util.WarpUtil
+import moe.nea.notfimament.util.render.RenderInWorldContext
 
 object NavigationHelper {
     var targetWaypoint: NavigableWaypoint? = null

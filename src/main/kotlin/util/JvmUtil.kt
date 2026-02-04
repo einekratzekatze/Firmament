@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import com.sun.tools.attach.VirtualMachine
 import java.lang.management.ManagementFactory

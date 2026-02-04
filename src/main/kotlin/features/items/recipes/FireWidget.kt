@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items.recipes
+package moe.nea.notfimament.features.items.recipes
 
 import me.shedaniel.math.Dimension
 import me.shedaniel.math.Point

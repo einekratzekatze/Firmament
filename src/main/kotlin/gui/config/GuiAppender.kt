@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import io.github.notenoughupdates.moulconfig.gui.GuiComponent
 import io.github.notenoughupdates.moulconfig.gui.component.RowComponent
@@ -8,7 +8,7 @@ import io.github.notenoughupdates.moulconfig.gui.component.TextComponent
 import io.github.notenoughupdates.moulconfig.observer.GetSetter
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.gui.FixedComponent
+import moe.nea.notfimament.gui.FixedComponent
 
 class GuiAppender(val width: Int, val screenAccessor: () -> Screen) {
     val panel = mutableListOf<GuiComponent>()

@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.misc
+package moe.nea.notfimament.features.misc
 
 import util.render.CustomRenderPipelines
 import kotlin.time.Duration
@@ -12,12 +12,12 @@ import net.minecraft.client.renderer.rendertype.RenderType
 import net.minecraft.world.entity.player.PlayerSkin
 import net.minecraft.core.ClientAsset
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.mc.CustomRenderPassHelper
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.mc.CustomRenderPassHelper
 
 object CustomCapes {
 	val identifier: String
@@ -64,7 +64,7 @@ object CustomCapes {
 		) {
 			val animationValue = (startTime.passedTime() / animationSpeed).mod(1F)
 			CustomRenderPassHelper(
-				{ "Firmament Cape Renderer" },
+				{ "Notfimament Cape Renderer" },
 				renderLayer.mode(),
 				renderLayer.format(),
 				MC.instance.mainRenderTarget,
@@ -120,7 +120,7 @@ object CustomCapes {
 		),
 
 		FIRMAMENT_STATIC(
-			"Firmament",
+			"Notfimament",
 			TexturedCapeRenderer(Firmament.identifier("textures/cape/firm_static.png"))
 		),
 		HYPIXEL_PLUS(

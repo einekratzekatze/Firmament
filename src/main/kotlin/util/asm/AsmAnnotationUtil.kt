@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.asm
+package moe.nea.notfimament.util.asm
 
 import com.google.common.base.Defaults
 import java.lang.reflect.InvocationHandler

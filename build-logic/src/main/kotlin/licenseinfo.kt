@@ -6,7 +6,7 @@ import moe.nea.licenseextractificator.LicenseExtension
 
 fun LicenseExtension.addExtraLicenseMatchers() {
     solo {
-        name = "Firmament"
+        name = "Notfimament"
         description = "A Hypixel SkyBlock mod"
         developer("Linnea Gräf") {
             webPresence = "https://nea.moe/"

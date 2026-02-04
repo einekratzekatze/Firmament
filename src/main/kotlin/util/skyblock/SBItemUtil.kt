@@ -1,8 +1,8 @@
-package moe.nea.firmament.util.skyblock
+package moe.nea.notfimament.util.skyblock
 
 import net.minecraft.world.item.ItemStack
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.unformattedString
 
 object SBItemUtil {
 	fun ItemStack.getSearchName(): String {

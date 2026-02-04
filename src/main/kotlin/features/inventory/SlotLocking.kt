@@ -1,6 +1,6 @@
 @file:UseSerializers(DashlessUUIDSerializer::class)
 
-package moe.nea.firmament.features.inventory
+package moe.nea.notfimament.features.inventory
 
 import java.util.UUID
 import org.lwjgl.glfw.GLFW
@@ -27,41 +27,41 @@ import net.minecraft.world.inventory.Slot
 import net.minecraft.world.inventory.ClickType
 import net.minecraft.resources.Identifier
 import net.minecraft.util.StringRepresentable
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ClientInitEvent
-import moe.nea.firmament.events.HandledScreenForegroundEvent
-import moe.nea.firmament.events.HandledScreenKeyPressedEvent
-import moe.nea.firmament.events.HandledScreenKeyReleasedEvent
-import moe.nea.firmament.events.IsSlotProtectedEvent
-import moe.nea.firmament.events.ScreenChangeEvent
-import moe.nea.firmament.events.SlotRenderEvents
-import moe.nea.firmament.keybindings.InputModifiers
-import moe.nea.firmament.keybindings.SavedKeyBinding
-import moe.nea.firmament.mixins.accessor.AccessorHandledScreen
-import moe.nea.firmament.util.CommonSoundEffects
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.SkyBlockIsland
-import moe.nea.firmament.util.accessors.castAccessor
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.data.ProfileSpecificDataHolder
-import moe.nea.firmament.util.extraAttributes
-import moe.nea.firmament.util.json.DashlessUUIDSerializer
-import moe.nea.firmament.util.lime
-import moe.nea.firmament.util.mc.ScreenUtil.getSlotByIndex
-import moe.nea.firmament.util.mc.SlotUtils.swapWithHotBar
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.red
-import moe.nea.firmament.util.render.drawAlignedBox
-import moe.nea.firmament.util.render.drawLine
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.skyblock.DungeonUtil
-import moe.nea.firmament.util.skyblock.SkyBlockItems
-import moe.nea.firmament.util.skyblockUUID
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ClientInitEvent
+import moe.nea.notfimament.events.HandledScreenForegroundEvent
+import moe.nea.notfimament.events.HandledScreenKeyPressedEvent
+import moe.nea.notfimament.events.HandledScreenKeyReleasedEvent
+import moe.nea.notfimament.events.IsSlotProtectedEvent
+import moe.nea.notfimament.events.ScreenChangeEvent
+import moe.nea.notfimament.events.SlotRenderEvents
+import moe.nea.notfimament.keybindings.InputModifiers
+import moe.nea.notfimament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.mixins.accessor.AccessorHandledScreen
+import moe.nea.notfimament.util.CommonSoundEffects
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.SkyBlockIsland
+import moe.nea.notfimament.util.accessors.castAccessor
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.ProfileSpecificDataHolder
+import moe.nea.notfimament.util.extraAttributes
+import moe.nea.notfimament.util.json.DashlessUUIDSerializer
+import moe.nea.notfimament.util.lime
+import moe.nea.notfimament.util.mc.ScreenUtil.getSlotByIndex
+import moe.nea.notfimament.util.mc.SlotUtils.swapWithHotBar
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.red
+import moe.nea.notfimament.util.render.drawAlignedBox
+import moe.nea.notfimament.util.render.drawLine
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.skyblock.DungeonUtil
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.util.skyblockUUID
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.unformattedString
 
 object SlotLocking {
 	val identifier: String
@@ -516,10 +516,10 @@ object SlotLocking {
 				RenderPipelines.GUI_TEXTURED,
 				when {
 					isSlotLocked ->
-						(Identifier.parse("firmament:slot_locked"))
+						(Identifier.parse("notfimament:slot_locked"))
 
 					isUUIDLocked ->
-						(Identifier.parse("firmament:uuid_locked"))
+						(Identifier.parse("notfimament:uuid_locked"))
 
 					else ->
 						error("unreachable")

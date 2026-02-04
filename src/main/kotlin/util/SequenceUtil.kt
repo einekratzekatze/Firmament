@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 fun <T : Any> T.iterate(iterator: (T) -> T?): Sequence<T> = sequence {
     var x: T? = this@iterate

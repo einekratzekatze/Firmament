@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.entity
+package moe.nea.notfimament.gui.entity
 
 import com.google.gson.JsonNull
 import com.google.gson.JsonObject
@@ -9,7 +9,7 @@ import net.minecraft.world.entity.LivingEntity
 import net.minecraft.world.entity.animal.equine.AbstractHorse
 import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.Items
-import moe.nea.firmament.gui.entity.EntityRenderer.fakeWorld
+import moe.nea.notfimament.gui.entity.EntityRenderer.fakeWorld
 
 object ModifyHorse : EntityModifier {
 	override fun apply(entity: LivingEntity, info: JsonObject): LivingEntity {

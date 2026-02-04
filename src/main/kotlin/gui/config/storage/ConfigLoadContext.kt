@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config.storage
+package moe.nea.notfimament.gui.config.storage
 
 import java.io.PrintWriter
 import java.nio.file.Path
@@ -9,7 +9,7 @@ import kotlin.io.path.Path
 import kotlin.io.path.copyToRecursively
 import kotlin.io.path.createParentDirectories
 import kotlin.io.path.writeText
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 data class ConfigLoadContext(
 	val loadId: String,

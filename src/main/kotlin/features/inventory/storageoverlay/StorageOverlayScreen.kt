@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.inventory.storageoverlay
+package moe.nea.notfimament.features.inventory.storageoverlay
 
 import io.github.notenoughupdates.moulconfig.common.IMinecraft
 import io.github.notenoughupdates.moulconfig.gui.GuiContext
@@ -27,25 +27,25 @@ import net.minecraft.world.inventory.Slot
 import net.minecraft.network.chat.Component
 import net.minecraft.ChatFormatting
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.events.SlotRenderEvents
-import moe.nea.firmament.gui.EmptyComponent
-import moe.nea.firmament.gui.FirmButtonComponent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MoulConfigUtils.adopt
-import moe.nea.firmament.util.MoulConfigUtils.clickMCComponentInPlace
-import moe.nea.firmament.util.MoulConfigUtils.drawMCComponentInPlace
-import moe.nea.firmament.util.MoulConfigUtils.typeMCComponentInPlace
-import moe.nea.firmament.util.StringUtil.words
-import moe.nea.firmament.util.assertTrueOr
-import moe.nea.firmament.util.customgui.customGui
-import moe.nea.firmament.util.mc.FakeSlot
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.render.drawAlignedBox
-import moe.nea.firmament.util.render.drawGuiTexture
-import moe.nea.firmament.util.render.enableScissorWithoutTranslation
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.events.SlotRenderEvents
+import moe.nea.notfimament.gui.EmptyComponent
+import moe.nea.notfimament.gui.FirmButtonComponent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MoulConfigUtils.adopt
+import moe.nea.notfimament.util.MoulConfigUtils.clickMCComponentInPlace
+import moe.nea.notfimament.util.MoulConfigUtils.drawMCComponentInPlace
+import moe.nea.notfimament.util.MoulConfigUtils.typeMCComponentInPlace
+import moe.nea.notfimament.util.StringUtil.words
+import moe.nea.notfimament.util.assertTrueOr
+import moe.nea.notfimament.util.customgui.customGui
+import moe.nea.notfimament.util.mc.FakeSlot
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.render.drawAlignedBox
+import moe.nea.notfimament.util.render.drawGuiTexture
+import moe.nea.notfimament.util.render.enableScissorWithoutTranslation
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.unformattedString
 
 class StorageOverlayScreen : Screen(Component.literal("")) {
 
@@ -127,12 +127,12 @@ class StorageOverlayScreen : Screen(Component.literal("")) {
 
 	fun getMaxScroll() = lastRenderedInnerHeight.toFloat() - getScrollPanelInner().height
 
-	val playerInventorySprite = Identifier.parse("firmament:storageoverlay/player_inventory")
-	val upperBackgroundSprite = Identifier.parse("firmament:storageoverlay/upper_background")
-	val slotRowSprite = Identifier.parse("firmament:storageoverlay/storage_row")
-	val scrollbarBackground = Identifier.parse("firmament:storageoverlay/scroll_bar_background")
-	val scrollbarKnob = Identifier.parse("firmament:storageoverlay/scroll_bar_knob")
-	val controllerBackground = Identifier.parse("firmament:storageoverlay/storage_controls")
+	val playerInventorySprite = Identifier.parse("notfimament:storageoverlay/player_inventory")
+	val upperBackgroundSprite = Identifier.parse("notfimament:storageoverlay/upper_background")
+	val slotRowSprite = Identifier.parse("notfimament:storageoverlay/storage_row")
+	val scrollbarBackground = Identifier.parse("notfimament:storageoverlay/scroll_bar_background")
+	val scrollbarKnob = Identifier.parse("notfimament:storageoverlay/scroll_bar_knob")
+	val controllerBackground = Identifier.parse("notfimament:storageoverlay/storage_controls")
 
 	override fun onClose() {
 		isExiting = true

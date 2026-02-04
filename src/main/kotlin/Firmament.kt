@@ -1,4 +1,4 @@
-package moe.nea.firmament
+package moe.nea.notfimament
 
 import com.google.gson.Gson
 import com.mojang.brigadier.CommandDispatcher
@@ -29,31 +29,31 @@ import kotlinx.serialization.json.decodeFromStream
 import kotlin.coroutines.EmptyCoroutineContext
 import net.minecraft.commands.CommandBuildContext
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.commands.registerFirmamentCommand
-import moe.nea.firmament.events.ClientInitEvent
-import moe.nea.firmament.events.ClientStartedEvent
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.ItemTooltipEvent
-import moe.nea.firmament.events.ScreenRenderPostEvent
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.registration.registerFirmamentEvents
-import moe.nea.firmament.features.FeatureManager
-import moe.nea.firmament.gui.config.storage.FirmamentConfigLoader
-import moe.nea.firmament.impl.v1.FirmamentAPIImpl
-import moe.nea.firmament.repo.HypixelStaticData
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.mc.InitLevel
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.commands.registerFirmamentCommand
+import moe.nea.notfimament.events.ClientInitEvent
+import moe.nea.notfimament.events.ClientStartedEvent
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.ItemTooltipEvent
+import moe.nea.notfimament.events.ScreenRenderPostEvent
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.registration.registerFirmamentEvents
+import moe.nea.notfimament.features.FeatureManager
+import moe.nea.notfimament.gui.config.storage.FirmamentConfigLoader
+import moe.nea.notfimament.impl.v1.FirmamentAPIImpl
+import moe.nea.notfimament.repo.HypixelStaticData
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.mc.InitLevel
+import moe.nea.notfimament.util.tr
 
 object Firmament {
 	val modContainer by lazy { FabricLoader.getInstance().getModContainer(MOD_ID).get() }
-	const val MOD_ID = "firmament"
+	const val MOD_ID = "notfimament"
 
 	val DEBUG = System.getProperty("firmament.debug") == "true"
-	val DATA_DIR: Path = Path.of(".firmament").also { Files.createDirectories(it) }
-	val logger: Logger = LogManager.getLogger("Firmament")
+	val DATA_DIR: Path = Path.of(".notfimament").also { Files.createDirectories(it) }
+	val logger: Logger = LogManager.getLogger("Notfimament")
 	private val metadata: ModMetadata by lazy {
 		FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow().metadata
 	}
@@ -89,7 +89,7 @@ object Firmament {
 
 	val globalJob = Job()
 	val coroutineScope =
-		CoroutineScope(EmptyCoroutineContext + CoroutineName("Firmament")) + SupervisorJob(globalJob)
+		CoroutineScope(EmptyCoroutineContext + CoroutineName("Notfimament")) + SupervisorJob(globalJob)
 
 	private fun registerCommands(
 		dispatcher: CommandDispatcher<FabricClientCommandSource>,
@@ -120,7 +120,7 @@ object Firmament {
 			ClientStartedEvent.publish(ClientStartedEvent())
 		})
 		ClientLifecycleEvents.CLIENT_STOPPING.register(ClientLifecycleEvents.ClientStopping {
-			logger.info("Shutting down Firmament coroutines")
+			logger.info("Shutting down Notfimament coroutines")
 			globalJob.cancel()
 		})
 		registerFirmamentEvents()
@@ -138,7 +138,7 @@ object Firmament {
 		ResourceManagerHelper.registerBuiltinResourcePack(
 			identifier("transparent_overlay"),
 			modContainer,
-			tr("firmament.resourcepack.transparentoverlay", "Transparent Firmament Overlay"),
+			tr("notfimament.resourcepack.transparentoverlay", "Transparent Notfimament Overlay"),
 			ResourcePackActivationType.NORMAL
 		)
 	}

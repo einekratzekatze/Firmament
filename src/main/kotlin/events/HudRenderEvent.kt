@@ -1,9 +1,9 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.client.DeltaTracker
 import net.minecraft.world.level.GameType
-import moe.nea.firmament.util.MC
+import moe.nea.notfimament.util.MC
 
 /**
  * Called when hud elements should be rendered, before the screen, but after the world.

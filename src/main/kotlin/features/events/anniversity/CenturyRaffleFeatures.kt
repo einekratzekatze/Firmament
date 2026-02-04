@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.events.anniversity
+package moe.nea.notfimament.features.events.anniversity
 
 import java.util.Optional
 import me.shedaniel.math.Color
@@ -6,15 +6,15 @@ import kotlin.jvm.optionals.getOrNull
 import net.minecraft.world.entity.player.Player
 import net.minecraft.network.chat.Style
 import net.minecraft.ChatFormatting
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.EntityRenderTintEvent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.render.TintedOverlayTexture
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.EntityRenderTintEvent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.render.TintedOverlayTexture
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
 
 object CenturyRaffleFeatures {
 	@Config

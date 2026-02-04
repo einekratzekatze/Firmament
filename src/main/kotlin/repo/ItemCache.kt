@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import com.mojang.serialization.Dynamic
 import io.github.moulberry.repo.IReloadable
@@ -34,25 +34,25 @@ import net.minecraft.util.datafix.fixes.References
 import net.minecraft.world.item.ItemStack
 import net.minecraft.world.item.Items
 import net.minecraft.world.item.component.CustomData
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.features.debug.ExportedTestConstantMeta
-import moe.nea.firmament.repo.RepoManager.initialize
-import moe.nea.firmament.util.LegacyFormattingCode
-import moe.nea.firmament.util.LegacyTagParser
-import moe.nea.firmament.util.MinecraftDispatcher
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.TestUtil
-import moe.nea.firmament.util.directLiteralStringContent
-import moe.nea.firmament.util.mc.FirmamentDataComponentTypes
-import moe.nea.firmament.util.mc.appendLore
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loadItemFromNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.mc.modifyLore
-import moe.nea.firmament.util.mc.setCustomName
-import moe.nea.firmament.util.mc.setSkullOwner
-import moe.nea.firmament.util.skyblockId
-import moe.nea.firmament.util.transformEachRecursively
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.features.debug.ExportedTestConstantMeta
+import moe.nea.notfimament.repo.RepoManager.initialize
+import moe.nea.notfimament.util.LegacyFormattingCode
+import moe.nea.notfimament.util.LegacyTagParser
+import moe.nea.notfimament.util.MinecraftDispatcher
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.TestUtil
+import moe.nea.notfimament.util.directLiteralStringContent
+import moe.nea.notfimament.util.mc.FirmamentDataComponentTypes
+import moe.nea.notfimament.util.mc.appendLore
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loadItemFromNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.mc.modifyLore
+import moe.nea.notfimament.util.mc.setCustomName
+import moe.nea.notfimament.util.mc.setSkullOwner
+import moe.nea.notfimament.util.skyblockId
+import moe.nea.notfimament.util.transformEachRecursively
 
 object ItemCache : IReloadable {
 	private val cache: MutableMap<String, ItemStack> = ConcurrentHashMap()

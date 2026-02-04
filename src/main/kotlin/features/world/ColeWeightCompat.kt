@@ -1,17 +1,17 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import kotlinx.serialization.Serializable
 import net.minecraft.network.chat.Component
 import net.minecraft.core.BlockPos
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.DefaultSource
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.commands.thenLiteral
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.DefaultSource
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.commands.thenLiteral
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.tr
 
 object ColeWeightCompat {
 	@Serializable

@@ -1,19 +1,19 @@
-package moe.nea.firmament.features.macros
+package moe.nea.notfimament.features.macros
 
 import io.github.notenoughupdates.moulconfig.common.text.StructuredText
 import io.github.notenoughupdates.moulconfig.gui.CloseEventListener
 import io.github.notenoughupdates.moulconfig.observer.ObservableList
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigPlatform
 import io.github.notenoughupdates.moulconfig.xml.Bind
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.gui.config.AllConfigsGui.toObservableList
-import moe.nea.firmament.gui.config.KeyBindingStateManager
-import moe.nea.firmament.keybindings.SavedKeyBinding
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MoulConfigUtils
-import moe.nea.firmament.util.ScreenUtil
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.gui.config.AllConfigsGui.toObservableList
+import moe.nea.notfimament.gui.config.KeyBindingStateManager
+import moe.nea.notfimament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MoulConfigUtils
+import moe.nea.notfimament.util.ScreenUtil
 
 class MacroUI {
 

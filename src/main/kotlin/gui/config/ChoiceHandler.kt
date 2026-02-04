@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import io.github.notenoughupdates.moulconfig.gui.HorizontalAlign
 import io.github.notenoughupdates.moulconfig.gui.VerticalAlign
@@ -8,10 +8,10 @@ import io.github.notenoughupdates.moulconfig.gui.component.TextComponent
 import kotlinx.serialization.json.JsonElement
 import kotlin.jvm.optionals.getOrNull
 import net.minecraft.util.StringRepresentable
-import moe.nea.firmament.gui.CheckboxComponent
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.json.KJsonOps
+import moe.nea.notfimament.gui.CheckboxComponent
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.json.KJsonOps
 
 class ChoiceHandler<E>(
 	val enumClass: Class<E>,

@@ -1,12 +1,12 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import java.util.Base64
 import kotlinx.serialization.DeserializationStrategy
 import kotlinx.serialization.SerializationStrategy
 import kotlinx.serialization.serializer
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 object TemplateUtil {
 

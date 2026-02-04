@@ -12,7 +12,7 @@ import net.minecraft.client.renderer.rendertype.RenderSetup
 import net.minecraft.client.renderer.rendertype.RenderType
 import net.minecraft.resources.Identifier
 import net.minecraft.util.Util
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 object CustomRenderPipelines {
 	val GUI_TEXTURED_NO_DEPTH_TRIS =

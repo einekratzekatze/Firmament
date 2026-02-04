@@ -1,8 +1,8 @@
-package moe.nea.firmament.events.subscription
+package moe.nea.notfimament.events.subscription
 
 import java.util.ServiceLoader
 import kotlin.streams.asSequence
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 interface SubscriptionList {
     fun provideSubscriptions(addSubscription: (Subscription<*>) -> Unit)

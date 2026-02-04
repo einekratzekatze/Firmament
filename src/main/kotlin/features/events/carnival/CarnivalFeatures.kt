@@ -1,8 +1,8 @@
 
-package moe.nea.firmament.features.events.carnival
+package moe.nea.notfimament.features.events.carnival
 
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
 
 object CarnivalFeatures {
 	@Config

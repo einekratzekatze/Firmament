@@ -1,11 +1,11 @@
-package moe.nea.firmament.util.skyblock
+package moe.nea.notfimament.util.skyblock
 
 import org.intellij.lang.annotations.Language
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.util.StringUtil.title
-import moe.nea.firmament.util.StringUtil.unwords
-import moe.nea.firmament.util.mc.MCTabListAPI
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.util.StringUtil.title
+import moe.nea.notfimament.util.StringUtil.unwords
+import moe.nea.notfimament.util.mc.MCTabListAPI
+import moe.nea.notfimament.util.unformattedString
 
 object TabListAPI {
 

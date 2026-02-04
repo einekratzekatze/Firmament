@@ -1,8 +1,8 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
-import moe.nea.firmament.util.Locraw
+import moe.nea.notfimament.util.Locraw
 
 /**
  * This event gets published whenever `/locraw` is queried and HyPixel returns a location different to the old one.

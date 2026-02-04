@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.json
+package moe.nea.notfimament.util.json
 
 import com.mojang.serialization.Codec
 import com.mojang.serialization.DataResult

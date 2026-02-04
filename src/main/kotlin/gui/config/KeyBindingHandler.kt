@@ -1,13 +1,13 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.decodeFromJsonElement
 import kotlinx.serialization.json.encodeToJsonElement
-import moe.nea.firmament.gui.FirmButtonComponent
-import moe.nea.firmament.keybindings.FirmamentKeyBindings
-import moe.nea.firmament.keybindings.SavedKeyBinding
-import moe.nea.firmament.util.data.ManagedConfig
+import moe.nea.notfimament.gui.FirmButtonComponent
+import moe.nea.notfimament.keybindings.FirmamentKeyBindings
+import moe.nea.notfimament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.util.data.ManagedConfig
 
 class KeyBindingHandler(val name: String, val managedConfig: ManagedConfig) :
 	ManagedConfig.OptionHandler<SavedKeyBinding> {

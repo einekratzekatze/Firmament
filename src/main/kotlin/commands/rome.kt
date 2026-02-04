@@ -1,4 +1,4 @@
-package moe.nea.firmament.commands
+package moe.nea.notfimament.commands
 
 import com.mojang.brigadier.CommandDispatcher
 import com.mojang.brigadier.arguments.IntegerArgumentType
@@ -10,40 +10,40 @@ import net.minecraft.commands.CommandBuildContext
 import net.minecraft.nbt.NbtOps
 import net.minecraft.network.chat.Component
 import net.minecraft.network.chat.ComponentSerialization
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.apis.UrsaManager
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.FirmamentEventBus
-import moe.nea.firmament.features.debug.DebugLogger
-import moe.nea.firmament.features.debug.DeveloperFeatures
-import moe.nea.firmament.features.debug.PowerUserTools
-import moe.nea.firmament.features.inventory.buttons.InventoryButtons
-import moe.nea.firmament.features.inventory.storageoverlay.StorageOverlayScreen
-import moe.nea.firmament.features.inventory.storageoverlay.StorageOverviewScreen
-import moe.nea.firmament.features.mining.MiningBlockInfoUi
-import moe.nea.firmament.gui.config.AllConfigsGui
-import moe.nea.firmament.gui.config.BooleanHandler
-import moe.nea.firmament.gui.config.ManagedOption
-import moe.nea.firmament.init.MixinPlugin
-import moe.nea.firmament.repo.HypixelStaticData
-import moe.nea.firmament.repo.ItemCache
-import moe.nea.firmament.repo.RepoDownloadManager
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.FirmFormatters
-import moe.nea.firmament.util.FirmFormatters.debugPath
-import moe.nea.firmament.util.FirmFormatters.formatBool
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.ScreenUtil
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.accessors.messages
-import moe.nea.firmament.util.asBazaarStock
-import moe.nea.firmament.util.collections.InstanceList
-import moe.nea.firmament.util.collections.WeakCache
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.mc.SNbtFormatter
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.apis.UrsaManager
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.FirmamentEventBus
+import moe.nea.notfimament.features.debug.DebugLogger
+import moe.nea.notfimament.features.debug.DeveloperFeatures
+import moe.nea.notfimament.features.debug.PowerUserTools
+import moe.nea.notfimament.features.inventory.buttons.InventoryButtons
+import moe.nea.notfimament.features.inventory.storageoverlay.StorageOverlayScreen
+import moe.nea.notfimament.features.inventory.storageoverlay.StorageOverviewScreen
+import moe.nea.notfimament.features.mining.MiningBlockInfoUi
+import moe.nea.notfimament.gui.config.AllConfigsGui
+import moe.nea.notfimament.gui.config.BooleanHandler
+import moe.nea.notfimament.gui.config.ManagedOption
+import moe.nea.notfimament.init.MixinPlugin
+import moe.nea.notfimament.repo.HypixelStaticData
+import moe.nea.notfimament.repo.ItemCache
+import moe.nea.notfimament.repo.RepoDownloadManager
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.FirmFormatters
+import moe.nea.notfimament.util.FirmFormatters.debugPath
+import moe.nea.notfimament.util.FirmFormatters.formatBool
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.ScreenUtil
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.accessors.messages
+import moe.nea.notfimament.util.asBazaarStock
+import moe.nea.notfimament.util.collections.InstanceList
+import moe.nea.notfimament.util.collections.WeakCache
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.mc.SNbtFormatter
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.unformattedString
 
 
 fun firmamentCommand(ctx: CommandBuildContext) = literal("firmament") {
@@ -312,7 +312,7 @@ fun firmamentCommand(ctx: CommandBuildContext) = literal("firmament") {
 			thenExecute {
 				source.sendFeedback(tr("firmament.event.start", "Event Bus Readout:"))
 				FirmamentEventBus.allEventBuses.forEach { eventBus ->
-					val prefixName = eventBus.eventType.typeName.removePrefix("moe.nea.firmament")
+					val prefixName = eventBus.eventType.typeName.removePrefix("moe.nea.notfimament")
 					source.sendFeedback(
 						tr(
 							"firmament.event.bustype",

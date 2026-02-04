@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import org.apache.logging.log4j.LogManager
 import kotlinx.coroutines.async
@@ -9,14 +9,14 @@ import kotlinx.coroutines.launch
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlin.time.Duration.Companion.minutes
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.apis.CollectionResponse
-import moe.nea.firmament.apis.CollectionSkillData
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.net.HttpUtil
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.apis.CollectionResponse
+import moe.nea.notfimament.apis.CollectionSkillData
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.net.HttpUtil
 
 object HypixelStaticData {
-	private val logger = LogManager.getLogger("Firmament.HypixelStaticData")
+	private val logger = LogManager.getLogger("Notfimament.HypixelStaticData")
 	private val moulberryBaseUrl = "https://moulberry.codes"
 	private val hypixelApiBaseUrl = "https://api.hypixel.net"
 	var lowestBin: Map<SkyblockId, Double> = mapOf()

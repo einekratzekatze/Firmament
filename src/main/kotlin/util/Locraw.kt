@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient

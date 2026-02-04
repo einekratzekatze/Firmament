@@ -1,14 +1,14 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import com.mojang.brigadier.CommandDispatcher
 import com.mojang.brigadier.tree.LiteralCommandNode
 import net.minecraft.commands.CommandBuildContext
-import moe.nea.firmament.commands.CaseInsensitiveLiteralCommandNode
-import moe.nea.firmament.commands.DefaultSource
-import moe.nea.firmament.commands.literal
-import moe.nea.firmament.commands.thenLiteral
+import moe.nea.notfimament.commands.CaseInsensitiveLiteralCommandNode
+import moe.nea.notfimament.commands.DefaultSource
+import moe.nea.notfimament.commands.literal
+import moe.nea.notfimament.commands.thenLiteral
 
 data class CommandEvent(
     val dispatcher: CommandDispatcher<DefaultSource>,

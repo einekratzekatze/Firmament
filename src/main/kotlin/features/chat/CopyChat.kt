@@ -1,9 +1,9 @@
-package moe.nea.firmament.features.chat
+package moe.nea.notfimament.features.chat
 
 import net.minecraft.util.FormattedCharSequence
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.reconstitute
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.reconstitute
 
 
 object CopyChat {

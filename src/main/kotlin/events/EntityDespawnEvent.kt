@@ -1,5 +1,5 @@
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.world.entity.Entity
 

@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import me.shedaniel.math.Rectangle
 import net.minecraft.client.gui.navigation.ScreenAxis

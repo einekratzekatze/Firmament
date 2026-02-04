@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 
 fun <T> errorBoundary(block: () -> T): T? {

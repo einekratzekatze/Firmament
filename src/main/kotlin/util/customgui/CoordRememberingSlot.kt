@@ -1,5 +1,5 @@
 
-package moe.nea.firmament.util.customgui
+package moe.nea.notfimament.util.customgui
 
 import net.minecraft.world.inventory.Slot
 

@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config
+package moe.nea.notfimament.gui.config
 
 import com.google.auto.service.AutoService
 import net.minecraft.client.gui.screens.Screen

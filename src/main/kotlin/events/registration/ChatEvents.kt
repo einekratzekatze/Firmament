@@ -1,4 +1,4 @@
-package moe.nea.firmament.events.registration
+package moe.nea.notfimament.events.registration
 
 import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents
@@ -7,13 +7,13 @@ import net.fabricmc.fabric.api.event.player.UseBlockCallback
 import net.fabricmc.fabric.api.event.player.UseItemCallback
 import net.minecraft.network.chat.Component
 import net.minecraft.world.InteractionResult
-import moe.nea.firmament.events.AllowChatEvent
-import moe.nea.firmament.events.AttackBlockEvent
-import moe.nea.firmament.events.JoinServerEvent
-import moe.nea.firmament.events.ModifyChatEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.UseBlockEvent
-import moe.nea.firmament.events.UseItemEvent
+import moe.nea.notfimament.events.AllowChatEvent
+import moe.nea.notfimament.events.AttackBlockEvent
+import moe.nea.notfimament.events.JoinServerEvent
+import moe.nea.notfimament.events.ModifyChatEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.UseBlockEvent
+import moe.nea.notfimament.events.UseItemEvent
 
 private var lastReceivedMessage: Component? = null
 

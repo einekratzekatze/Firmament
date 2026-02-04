@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.inventory.buttons
+package moe.nea.notfimament.features.inventory.buttons
 
 import me.shedaniel.math.Rectangle
 import kotlinx.serialization.Serializable
@@ -7,19 +7,19 @@ import kotlin.time.Duration.Companion.seconds
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
 import net.minecraft.client.gui.screens.inventory.InventoryScreen
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HandledScreenClickEvent
-import moe.nea.firmament.events.HandledScreenForegroundEvent
-import moe.nea.firmament.events.HandledScreenPushREIEvent
-import moe.nea.firmament.impl.v1.FirmamentAPIImpl
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.ScreenUtil
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.accessors.getProperRectangle
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.DataHolder
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.gold
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HandledScreenClickEvent
+import moe.nea.notfimament.events.HandledScreenForegroundEvent
+import moe.nea.notfimament.events.HandledScreenPushREIEvent
+import moe.nea.notfimament.impl.v1.FirmamentAPIImpl
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.ScreenUtil
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.accessors.getProperRectangle
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.DataHolder
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.gold
 
 object InventoryButtons {
 

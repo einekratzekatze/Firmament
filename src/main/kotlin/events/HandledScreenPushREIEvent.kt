@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import me.shedaniel.math.Rectangle
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen

@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.diana
+package moe.nea.notfimament.features.diana
 
 import me.shedaniel.math.Color
 import kotlin.time.Duration.Companion.seconds
@@ -6,14 +6,14 @@ import net.minecraft.core.particles.ParticleTypes
 import net.minecraft.core.BlockPos
 import net.minecraft.util.Mth
 import net.minecraft.core.Position
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ParticleSpawnEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.collections.mutableMapWithMaxSize
-import moe.nea.firmament.util.render.RenderInWorldContext.Companion.renderInWorld
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ParticleSpawnEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.collections.mutableMapWithMaxSize
+import moe.nea.notfimament.util.render.RenderInWorldContext.Companion.renderInWorld
 
 object NearbyBurrowsSolver {
 

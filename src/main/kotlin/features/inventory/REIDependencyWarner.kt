@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.inventory
+package moe.nea.notfimament.features.inventory
 
 import java.net.URI
 import net.fabricmc.loader.api.FabricLoader
@@ -8,22 +8,22 @@ import kotlin.time.Duration.Companion.seconds
 import net.minecraft.SharedConstants
 import net.minecraft.network.chat.ClickEvent
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.SkyblockServerUpdateEvent
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.aqua
-import moe.nea.firmament.util.bold
-import moe.nea.firmament.util.clickCommand
-import moe.nea.firmament.util.grey
-import moe.nea.firmament.util.lime
-import moe.nea.firmament.util.red
-import moe.nea.firmament.util.white
-import moe.nea.firmament.util.yellow
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.SkyblockServerUpdateEvent
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.aqua
+import moe.nea.notfimament.util.bold
+import moe.nea.notfimament.util.clickCommand
+import moe.nea.notfimament.util.grey
+import moe.nea.notfimament.util.lime
+import moe.nea.notfimament.util.red
+import moe.nea.notfimament.util.white
+import moe.nea.notfimament.util.yellow
 
 object REIDependencyWarner {
 	val reiModId = "roughlyenoughitems"

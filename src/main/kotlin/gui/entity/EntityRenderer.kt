@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.entity
+package moe.nea.notfimament.gui.entity
 
 import com.google.gson.Gson
 import com.google.gson.JsonArray
@@ -15,11 +15,11 @@ import net.minecraft.world.entity.LivingEntity
 import net.minecraft.world.entity.EntitySpawnReason
 import net.minecraft.resources.Identifier
 import net.minecraft.world.level.Level
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.iterate
-import moe.nea.firmament.util.openFirmamentResource
-import moe.nea.firmament.util.render.enableScissorWithTranslation
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.iterate
+import moe.nea.notfimament.util.openFirmamentResource
+import moe.nea.notfimament.util.render.enableScissorWithTranslation
 
 object EntityRenderer {
 	val fakeWorld: Level get() = MC.lastWorld!!

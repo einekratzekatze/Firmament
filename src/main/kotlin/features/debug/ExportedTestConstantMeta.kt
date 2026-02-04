@@ -1,10 +1,10 @@
-package moe.nea.firmament.features.debug
+package moe.nea.notfimament.features.debug
 
 import com.mojang.serialization.Codec
 import com.mojang.serialization.codecs.RecordCodecBuilder
 import java.util.Optional
 import net.minecraft.SharedConstants
-import moe.nea.firmament.Firmament
+import moe.nea.notfimament.Firmament
 
 data class ExportedTestConstantMeta(
 	val dataVersion: Int,
@@ -13,7 +13,7 @@ data class ExportedTestConstantMeta(
 	companion object {
 		val current = ExportedTestConstantMeta(
 			SharedConstants.getCurrentVersion().dataVersion().version,
-			Optional.of("Firmament ${Firmament.version.friendlyString}")
+			Optional.of("Notfimament ${Firmament.version.friendlyString}")
 		)
 
 		val CODEC: Codec<ExportedTestConstantMeta> = RecordCodecBuilder.create {

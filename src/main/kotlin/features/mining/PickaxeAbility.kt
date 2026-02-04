@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.mining
+package moe.nea.notfimament.features.mining
 
 import io.github.notenoughupdates.moulconfig.ChromaColour
 import java.util.regex.Pattern
@@ -12,35 +12,35 @@ import net.minecraft.util.StringRepresentable
 import net.minecraft.world.InteractionHand
 import net.minecraft.world.item.DyeColor
 import net.minecraft.world.item.ItemStack
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HudRenderEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.ProfileSwitchEvent
-import moe.nea.firmament.events.SlotClickEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.util.DurabilityBarEvent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.SHORT_NUMBER_FORMAT
-import moe.nea.firmament.util.SkyBlockIsland
-import moe.nea.firmament.util.TIME_PATTERN
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.extraAttributes
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loreAccordingToNbt
-import moe.nea.firmament.util.parseShortNumber
-import moe.nea.firmament.util.parseTimePattern
-import moe.nea.firmament.util.render.RenderCircleProgress
-import moe.nea.firmament.util.render.lerp
-import moe.nea.firmament.util.skyblock.AbilityUtils
-import moe.nea.firmament.util.skyblock.DungeonUtil
-import moe.nea.firmament.util.skyblock.ItemType
-import moe.nea.firmament.util.toShedaniel
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.unformattedString
-import moe.nea.firmament.util.useMatch
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HudRenderEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.ProfileSwitchEvent
+import moe.nea.notfimament.events.SlotClickEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.util.DurabilityBarEvent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.SHORT_NUMBER_FORMAT
+import moe.nea.notfimament.util.SkyBlockIsland
+import moe.nea.notfimament.util.TIME_PATTERN
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.extraAttributes
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loreAccordingToNbt
+import moe.nea.notfimament.util.parseShortNumber
+import moe.nea.notfimament.util.parseTimePattern
+import moe.nea.notfimament.util.render.RenderCircleProgress
+import moe.nea.notfimament.util.render.lerp
+import moe.nea.notfimament.util.skyblock.AbilityUtils
+import moe.nea.notfimament.util.skyblock.DungeonUtil
+import moe.nea.notfimament.util.skyblock.ItemType
+import moe.nea.notfimament.util.toShedaniel
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.unformattedString
+import moe.nea.notfimament.util.useMatch
 
 object PickaxeAbility {
 	val identifier: String
@@ -220,7 +220,7 @@ object PickaxeAbility {
 		event.context.pose().translate(MC.window.guiScaledWidth / 2F, MC.window.guiScaledHeight / 2F)
 		event.context.pose().scale(TConfig.cooldownScale.toFloat(), TConfig.cooldownScale.toFloat())
 		RenderCircleProgress.renderCircle(
-			event.context, Identifier.fromNamespaceAndPath("firmament", "textures/gui/circle.png"),
+			event.context, Identifier.fromNamespaceAndPath("notfimament", "textures/gui/circle.png"),
 			getCooldownPercentage(ability.name, ability.cooldown).toFloat(),
 			0f, 1f, 0f, 1f,
 			color = TConfig.cooldownColour.getEffectiveColourRGB()

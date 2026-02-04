@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items
+package moe.nea.notfimament.features.items
 
 import io.github.notenoughupdates.moulconfig.ChromaColour
 import net.minecraft.world.level.block.Blocks
@@ -12,17 +12,17 @@ import net.minecraft.core.BlockPos
 import net.minecraft.world.phys.Vec3
 import net.minecraft.world.phys.shapes.Shapes
 import net.minecraft.world.level.BlockGetter
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.extraAttributes
-import moe.nea.firmament.util.render.RenderInWorldContext
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.skyblock.SkyBlockItems
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.extraAttributes
+import moe.nea.notfimament.util.render.RenderInWorldContext
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.util.tr
 
 object EtherwarpOverlay {
 	val identifier: String

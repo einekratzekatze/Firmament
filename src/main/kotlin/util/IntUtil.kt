@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 object IntUtil {
 	data class RGBA(val r: Int, val g: Int, val b: Int, val a: Int)

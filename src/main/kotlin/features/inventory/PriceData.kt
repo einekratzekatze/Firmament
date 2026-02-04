@@ -1,22 +1,22 @@
-package moe.nea.firmament.features.inventory
+package moe.nea.notfimament.features.inventory
 
 import org.lwjgl.glfw.GLFW
 import net.minecraft.network.chat.Component
 import net.minecraft.util.StringRepresentable
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ItemTooltipEvent
-import moe.nea.firmament.repo.HypixelStaticData
-import moe.nea.firmament.util.FirmFormatters.formatCommas
-import moe.nea.firmament.util.asBazaarStock
-import moe.nea.firmament.util.bold
-import moe.nea.firmament.util.darkGrey
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.getLogicalStackSize
-import moe.nea.firmament.util.gold
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.tr
-import moe.nea.firmament.util.yellow
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ItemTooltipEvent
+import moe.nea.notfimament.repo.HypixelStaticData
+import moe.nea.notfimament.util.FirmFormatters.formatCommas
+import moe.nea.notfimament.util.asBazaarStock
+import moe.nea.notfimament.util.bold
+import moe.nea.notfimament.util.darkGrey
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.getLogicalStackSize
+import moe.nea.notfimament.util.gold
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.tr
+import moe.nea.notfimament.util.yellow
 
 object PriceData {
 	val identifier: String

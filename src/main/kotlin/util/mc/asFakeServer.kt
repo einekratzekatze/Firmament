@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource
 import kotlin.contracts.ExperimentalContracts

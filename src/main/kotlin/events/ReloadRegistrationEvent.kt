@@ -1,4 +1,4 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import io.github.moulberry.repo.NEURepository
 

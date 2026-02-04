@@ -1,11 +1,11 @@
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import java.io.InputStream
 import kotlin.io.path.inputStream
 import kotlin.jvm.optionals.getOrNull
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.repo.RepoDownloadManager
+import moe.nea.notfimament.repo.RepoDownloadManager
 
 
 fun Identifier.openFirmamentResource(): InputStream {

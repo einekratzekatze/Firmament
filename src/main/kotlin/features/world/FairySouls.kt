@@ -1,23 +1,23 @@
-package moe.nea.firmament.features.world
+package moe.nea.notfimament.features.world
 
 import io.github.moulberry.repo.data.Coordinate
 import me.shedaniel.math.Color
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.serializer
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.events.SkyblockServerUpdateEvent
-import moe.nea.firmament.events.WorldRenderLastEvent
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.SkyBlockIsland
-import moe.nea.firmament.util.blockPos
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.data.ProfileSpecificDataHolder
-import moe.nea.firmament.util.render.RenderInWorldContext.Companion.renderInWorld
-import moe.nea.firmament.util.unformattedString
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.events.SkyblockServerUpdateEvent
+import moe.nea.notfimament.events.WorldRenderLastEvent
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.SkyBlockIsland
+import moe.nea.notfimament.util.blockPos
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.data.ProfileSpecificDataHolder
+import moe.nea.notfimament.util.render.RenderInWorldContext.Companion.renderInWorld
+import moe.nea.notfimament.util.unformattedString
 
 
 object FairySouls {

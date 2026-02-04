@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import kotlinx.coroutines.asCoroutineDispatcher
 import net.minecraft.client.Minecraft

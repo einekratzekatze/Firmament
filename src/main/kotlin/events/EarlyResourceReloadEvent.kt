@@ -1,5 +1,5 @@
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import java.util.concurrent.Executor
 import net.minecraft.server.packs.resources.ResourceManager

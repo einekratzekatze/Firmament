@@ -1,11 +1,11 @@
 
 
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.world.inventory.Slot
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.util.render.drawGuiTexture
+import moe.nea.notfimament.util.render.drawGuiTexture
 
 interface SlotRenderEvents {
     val context: GuiGraphics

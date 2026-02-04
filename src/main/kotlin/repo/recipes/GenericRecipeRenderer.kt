@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo.recipes
+package moe.nea.notfimament.repo.recipes
 
 import io.github.moulberry.repo.NEURepository
 import io.github.moulberry.repo.data.NEURecipe
@@ -6,7 +6,7 @@ import me.shedaniel.math.Rectangle
 import net.minecraft.world.item.ItemStack
 import net.minecraft.network.chat.Component
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.repo.SBItemStack
+import moe.nea.notfimament.repo.SBItemStack
 
 interface GenericRecipeRenderer<T : Any> {
 	fun render(recipe: T, bounds: Rectangle, layouter: RecipeLayouter, mainItem: SBItemStack?)

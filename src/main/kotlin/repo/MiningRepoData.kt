@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import io.github.moulberry.repo.IReloadable
 import io.github.moulberry.repo.NEURepository
@@ -14,14 +14,14 @@ import net.minecraft.world.item.BlockItem
 import net.minecraft.world.item.ItemStack
 import net.minecraft.nbt.CompoundTag
 import net.minecraft.network.chat.Component
-import moe.nea.firmament.repo.ReforgeStore.kJson
-import moe.nea.firmament.util.SBData
-import moe.nea.firmament.util.SkyBlockIsland
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.mc.FirmamentDataComponentTypes
-import moe.nea.firmament.util.mc.displayNameAccordingToNbt
-import moe.nea.firmament.util.mc.loadItemFromNbt
-import moe.nea.firmament.util.skyblockId
+import moe.nea.notfimament.repo.ReforgeStore.kJson
+import moe.nea.notfimament.util.SBData
+import moe.nea.notfimament.util.SkyBlockIsland
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.mc.FirmamentDataComponentTypes
+import moe.nea.notfimament.util.mc.displayNameAccordingToNbt
+import moe.nea.notfimament.util.mc.loadItemFromNbt
+import moe.nea.notfimament.util.skyblockId
 
 class MiningRepoData : IReloadable {
 	var customMiningAreas: Map<SkyBlockIsland, CustomMiningArea> = mapOf()

@@ -1,12 +1,12 @@
-package moe.nea.firmament.events
+package moe.nea.notfimament.events
 
 import org.lwjgl.glfw.GLFW
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
-import moe.nea.firmament.events.HandledScreenKeyPressedEvent.Companion.internalPollAction
-import moe.nea.firmament.keybindings.GenericInputAction
-import moe.nea.firmament.keybindings.InputModifiers
-import moe.nea.firmament.keybindings.SavedKeyBinding
+import moe.nea.notfimament.events.HandledScreenKeyPressedEvent.Companion.internalPollAction
+import moe.nea.notfimament.keybindings.GenericInputAction
+import moe.nea.notfimament.keybindings.InputModifiers
+import moe.nea.notfimament.keybindings.SavedKeyBinding
 
 sealed interface HandledScreenInputEvent {
 	val screen: Screen

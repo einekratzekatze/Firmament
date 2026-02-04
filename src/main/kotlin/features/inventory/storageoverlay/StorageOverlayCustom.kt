@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.inventory.storageoverlay
+package moe.nea.notfimament.features.inventory.storageoverlay
 
 import me.shedaniel.math.Point
 import me.shedaniel.math.Rectangle
@@ -10,10 +10,10 @@ import net.minecraft.client.input.CharacterEvent
 import net.minecraft.client.input.KeyEvent
 import net.minecraft.world.entity.player.Inventory
 import net.minecraft.world.inventory.Slot
-import moe.nea.firmament.mixins.accessor.AccessorHandledScreen
-import moe.nea.firmament.util.accessors.castAccessor
-import moe.nea.firmament.util.customgui.CustomGui
-import moe.nea.firmament.util.focusedItemStack
+import moe.nea.notfimament.mixins.accessor.AccessorHandledScreen
+import moe.nea.notfimament.util.accessors.castAccessor
+import moe.nea.notfimament.util.customgui.CustomGui
+import moe.nea.notfimament.util.focusedItemStack
 
 class StorageOverlayCustom(
     val handler: StorageBackingHandle,

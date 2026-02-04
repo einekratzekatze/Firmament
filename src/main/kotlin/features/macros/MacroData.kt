@@ -1,8 +1,8 @@
-package moe.nea.firmament.features.macros
+package moe.nea.notfimament.features.macros
 
 import kotlinx.serialization.Serializable
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.DataHolder
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.DataHolder
 
 @Serializable
 data class MacroData(

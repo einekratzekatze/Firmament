@@ -1,10 +1,10 @@
-package moe.nea.firmament.compat.moulconfig
+package moe.nea.notfimament.compat.moulconfig
 
 import io.github.notenoughupdates.moulconfig.Config
 import io.github.notenoughupdates.moulconfig.common.text.StructuredText
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigPlatform
-import moe.nea.firmament.gui.config.ManagedOption
-import moe.nea.firmament.util.ErrorUtil
+import moe.nea.notfimament.gui.config.ManagedOption
+import moe.nea.notfimament.util.ErrorUtil
 
 abstract class ProcessedEditableOptionFirm<T : Any>(
 	val managedOption: ManagedOption<T>,

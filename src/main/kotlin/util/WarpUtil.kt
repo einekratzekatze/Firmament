@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import io.github.moulberry.repo.constants.Islands
 import io.github.moulberry.repo.constants.Islands.Warp
@@ -8,13 +8,13 @@ import kotlin.math.sqrt
 import kotlin.time.Duration.Companion.seconds
 import net.minecraft.network.chat.Component
 import net.minecraft.core.Position
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.ProcessChatEvent
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ProfileSpecificDataHolder
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.ProcessChatEvent
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ProfileSpecificDataHolder
 
 object WarpUtil {
 	val warps: Sequence<Islands.Warp>

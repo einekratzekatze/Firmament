@@ -1,15 +1,15 @@
-package moe.nea.firmament.util.math
+package moe.nea.notfimament.util.math
 
 import kotlin.math.absoluteValue
 import kotlin.math.cos
 import kotlin.math.sin
 import net.minecraft.world.phys.Vec2
-import moe.nea.firmament.util.render.wrapAngle
+import moe.nea.notfimament.util.render.wrapAngle
 
 object Projections {
 	object Two {
 		val ε = 1e-6
-		val π = moe.nea.firmament.util.render.π
+		val π = moe.nea.notfimament.util.render.π
 		val τ = 2 * π
 
 		fun isNullish(float: Float) = float.absoluteValue < ε

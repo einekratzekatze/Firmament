@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui.config.storage
+package moe.nea.notfimament.gui.config.storage
 
 import java.util.UUID
 import java.util.concurrent.CompletableFuture
@@ -15,16 +15,16 @@ import kotlin.io.path.name
 import kotlin.io.path.readText
 import kotlin.io.path.writeText
 import kotlin.time.Duration.Companion.seconds
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.features.debug.DebugLogger
-import moe.nea.firmament.util.SBData.NULL_UUID
-import moe.nea.firmament.util.TimeMark
-import moe.nea.firmament.util.data.IConfigProvider
-import moe.nea.firmament.util.data.IDataHolder
-import moe.nea.firmament.util.data.ProfileKeyedConfig
-import moe.nea.firmament.util.json.intoGson
-import moe.nea.firmament.util.json.intoKotlinJson
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.features.debug.DebugLogger
+import moe.nea.notfimament.util.SBData.NULL_UUID
+import moe.nea.notfimament.util.TimeMark
+import moe.nea.notfimament.util.data.IConfigProvider
+import moe.nea.notfimament.util.data.IDataHolder
+import moe.nea.notfimament.util.data.ProfileKeyedConfig
+import moe.nea.notfimament.util.json.intoGson
+import moe.nea.notfimament.util.json.intoKotlinJson
 
 object FirmamentConfigLoader {
 	val currentConfigVersion = 1000

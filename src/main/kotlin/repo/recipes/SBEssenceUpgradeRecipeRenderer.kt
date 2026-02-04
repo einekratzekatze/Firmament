@@ -1,17 +1,17 @@
-package moe.nea.firmament.repo.recipes
+package moe.nea.notfimament.repo.recipes
 
 import io.github.moulberry.repo.NEURepository
 import me.shedaniel.math.Rectangle
 import net.minecraft.world.item.ItemStack
 import net.minecraft.network.chat.Component
 import net.minecraft.resources.Identifier
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.repo.EssenceRecipeProvider
-import moe.nea.firmament.repo.ExpensiveItemCacheApi
-import moe.nea.firmament.repo.RepoManager
-import moe.nea.firmament.repo.SBItemStack
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.repo.EssenceRecipeProvider
+import moe.nea.notfimament.repo.ExpensiveItemCacheApi
+import moe.nea.notfimament.repo.RepoManager
+import moe.nea.notfimament.repo.SBItemStack
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.tr
 
 object SBEssenceUpgradeRecipeRenderer : GenericRecipeRenderer<EssenceRecipeProvider.EssenceUpgradeRecipe> {
 	override fun render(

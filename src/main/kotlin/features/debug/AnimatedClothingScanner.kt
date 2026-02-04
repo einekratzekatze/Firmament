@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.debug
+package moe.nea.notfimament.features.debug
 
 import net.minecraft.commands.arguments.ResourceKeyArgument
 import net.minecraft.core.component.DataComponentType
@@ -8,20 +8,20 @@ import net.minecraft.world.item.ItemStack
 import net.minecraft.nbt.Tag
 import net.minecraft.nbt.NbtOps
 import net.minecraft.core.registries.Registries
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.commands.get
-import moe.nea.firmament.commands.thenArgument
-import moe.nea.firmament.commands.thenExecute
-import moe.nea.firmament.commands.thenLiteral
-import moe.nea.firmament.events.CommandEvent
-import moe.nea.firmament.events.EntityUpdateEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.util.ClipboardUtils
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.math.GChainReconciliation
-import moe.nea.firmament.util.math.GChainReconciliation.shortenCycle
-import moe.nea.firmament.util.mc.NbtPrism
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.commands.get
+import moe.nea.notfimament.commands.thenArgument
+import moe.nea.notfimament.commands.thenExecute
+import moe.nea.notfimament.commands.thenLiteral
+import moe.nea.notfimament.events.CommandEvent
+import moe.nea.notfimament.events.EntityUpdateEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.util.ClipboardUtils
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.math.GChainReconciliation
+import moe.nea.notfimament.util.math.GChainReconciliation.shortenCycle
+import moe.nea.notfimament.util.mc.NbtPrism
+import moe.nea.notfimament.util.tr
 
 object AnimatedClothingScanner {
 

@@ -1,6 +1,6 @@
 
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import kotlin.time.Duration
 import kotlin.time.ExperimentalTime

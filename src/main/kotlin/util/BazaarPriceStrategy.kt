@@ -1,7 +1,7 @@
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
-import moe.nea.firmament.repo.HypixelStaticData
+import moe.nea.notfimament.repo.HypixelStaticData
 
 enum class BazaarPriceStrategy {
     BUY_ORDER,

@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.mc
+package moe.nea.notfimament.util.mc
 
 import com.google.gson.Gson
 import com.google.gson.JsonArray
@@ -14,7 +14,7 @@ import net.minecraft.nbt.Tag
 import net.minecraft.nbt.ListTag
 import net.minecraft.nbt.NbtOps
 import net.minecraft.nbt.StringTag
-import moe.nea.firmament.util.Base64Util
+import moe.nea.notfimament.util.Base64Util
 
 class NbtPrism(val path: List<String>) {
 	companion object {

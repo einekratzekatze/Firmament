@@ -1,13 +1,13 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import com.google.auto.service.AutoService
 import kotlin.jvm.optionals.getOrNull
 import net.minecraft.client.gui.screens.Screen
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen
 import net.minecraft.world.item.ItemStack
-import moe.nea.firmament.api.v1.FirmamentAPI
-import moe.nea.firmament.mixins.accessor.AccessorHandledScreen
-import moe.nea.firmament.util.compatloader.CompatLoader
+import moe.nea.notfimament.api.v1.FirmamentAPI
+import moe.nea.notfimament.mixins.accessor.AccessorHandledScreen
+import moe.nea.notfimament.util.compatloader.CompatLoader
 
 interface HoveredItemStackProvider : Comparable<HoveredItemStackProvider> {
 	fun provideHoveredItemStack(screen: Screen): ItemStack?

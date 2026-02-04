@@ -1,4 +1,4 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import io.github.moulberry.repo.NEURepository
 import io.github.moulberry.repo.NEURepositoryException
@@ -14,17 +14,17 @@ import net.minecraft.client.Minecraft
 import net.minecraft.network.protocol.game.ClientboundUpdateRecipesPacket
 import net.minecraft.world.item.crafting.SelectableRecipe
 import net.minecraft.util.StringRepresentable
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.Firmament.logger
-import moe.nea.firmament.events.ReloadRegistrationEvent
-import moe.nea.firmament.util.ErrorUtil
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.MinecraftDispatcher
-import moe.nea.firmament.util.SkyblockId
-import moe.nea.firmament.util.TestUtil
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.Firmament.logger
+import moe.nea.notfimament.events.ReloadRegistrationEvent
+import moe.nea.notfimament.util.ErrorUtil
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.MinecraftDispatcher
+import moe.nea.notfimament.util.SkyblockId
+import moe.nea.notfimament.util.TestUtil
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.tr
 
 object RepoManager {
 	@Config

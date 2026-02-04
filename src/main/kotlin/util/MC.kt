@@ -1,4 +1,4 @@
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import io.github.moulberry.repo.data.Coordinate
 import io.github.notenoughupdates.moulconfig.platform.MoulConfigScreenComponent
@@ -30,10 +30,10 @@ import net.minecraft.resources.Identifier
 import net.minecraft.core.BlockPos
 import net.minecraft.util.Util
 import net.minecraft.world.level.Level
-import moe.nea.firmament.Firmament
-import moe.nea.firmament.events.TickEvent
-import moe.nea.firmament.events.WorldReadyEvent
-import moe.nea.firmament.util.mc.TolerantRegistriesOps
+import moe.nea.notfimament.Firmament
+import moe.nea.notfimament.events.TickEvent
+import moe.nea.notfimament.events.WorldReadyEvent
+import moe.nea.notfimament.util.mc.TolerantRegistriesOps
 
 object MC {
 

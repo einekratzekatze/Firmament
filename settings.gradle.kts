@@ -33,7 +33,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Firmament"
+rootProject.name = "Notfimament"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include("symbols")

@@ -1,4 +1,4 @@
-package moe.nea.firmament.gui
+package moe.nea.notfimament.gui
 
 import io.github.notenoughupdates.moulconfig.common.MyResourceLocation
 import io.github.notenoughupdates.moulconfig.deps.libninepatch.NinePatch
@@ -41,7 +41,7 @@ open class FirmButtonComponent(
 			.cornerUv(5 / 200F, 5 / 20F)
 			.mode(NinePatch.Mode.STRETCHING)
 			.build()
-	val activeBg = NinePatch.builder(MyResourceLocation("firmament", "textures/gui/sprites/widget/button_active.png"))
+	val activeBg = NinePatch.builder(MyResourceLocation("notfimament", "textures/gui/sprites/widget/button_active.png"))
 		.cornerSize(5)
 		.cornerUv(5 / 200F, 5 / 20F)
 		.mode(NinePatch.Mode.STRETCHING)

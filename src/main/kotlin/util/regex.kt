@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalTypeInference::class, ExperimentalContracts::class)
 
-package moe.nea.firmament.util
+package moe.nea.notfimament.util
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern

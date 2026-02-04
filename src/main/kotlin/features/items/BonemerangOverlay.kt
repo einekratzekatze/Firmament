@@ -1,4 +1,4 @@
-package moe.nea.firmament.features.items
+package moe.nea.notfimament.features.items
 
 import me.shedaniel.math.Color
 import org.joml.Vector2i
@@ -7,16 +7,16 @@ import net.minecraft.world.entity.decoration.ArmorStand
 import net.minecraft.world.entity.player.Player
 import net.minecraft.ChatFormatting
 import net.minecraft.world.phys.AABB
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.EntityRenderTintEvent
-import moe.nea.firmament.events.HudRenderEvent
-import moe.nea.firmament.util.MC
-import moe.nea.firmament.util.data.Config
-import moe.nea.firmament.util.data.ManagedConfig
-import moe.nea.firmament.util.render.TintedOverlayTexture
-import moe.nea.firmament.util.skyBlockId
-import moe.nea.firmament.util.skyblock.SkyBlockItems
-import moe.nea.firmament.util.tr
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.EntityRenderTintEvent
+import moe.nea.notfimament.events.HudRenderEvent
+import moe.nea.notfimament.util.MC
+import moe.nea.notfimament.util.data.Config
+import moe.nea.notfimament.util.data.ManagedConfig
+import moe.nea.notfimament.util.render.TintedOverlayTexture
+import moe.nea.notfimament.util.skyBlockId
+import moe.nea.notfimament.util.skyblock.SkyBlockItems
+import moe.nea.notfimament.util.tr
 
 object BonemerangOverlay {
 	val identifier: String

@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.customgui
+package moe.nea.notfimament.util.customgui
 
 import me.shedaniel.math.Rectangle
 import net.minecraft.client.input.MouseButtonEvent
@@ -6,8 +6,8 @@ import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.client.input.CharacterEvent
 import net.minecraft.client.input.KeyEvent
 import net.minecraft.world.inventory.Slot
-import moe.nea.firmament.annotations.Subscribe
-import moe.nea.firmament.events.HandledScreenPushREIEvent
+import moe.nea.notfimament.annotations.Subscribe
+import moe.nea.notfimament.events.HandledScreenPushREIEvent
 
 abstract class CustomGui {
 

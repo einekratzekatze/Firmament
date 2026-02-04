@@ -1,4 +1,4 @@
-package moe.nea.firmament.util.json
+package moe.nea.notfimament.util.json
 
 import kotlinx.serialization.json.JsonArray
 import kotlinx.serialization.json.JsonElement

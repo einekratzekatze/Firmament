@@ -1,10 +1,10 @@
-package moe.nea.firmament.repo
+package moe.nea.notfimament.repo
 
 import io.github.moulberry.repo.IReloadable
 import io.github.moulberry.repo.NEURepository
 import io.github.moulberry.repo.data.NEUIngredient
 import io.github.moulberry.repo.data.NEURecipe
-import moe.nea.firmament.util.SkyblockId
+import moe.nea.notfimament.util.SkyblockId
 
 class EssenceRecipeProvider : IReloadable, ExtraRecipeProvider {
 	data class EssenceUpgradeRecipe(

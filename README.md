@@ -1,6 +1,6 @@
 # Notfimament
 
-A fork of [Firmament](https://github.com/FirmamentMC/Firmament) that is compatible with [Taunahi](https://github.com/Flavor5/Taunahi).
+A fork of [Firmament](https://github.com/FirmamentMC/Firmament) that is compatible with [Taunahi](https://www.taunahi.net).
 
 ## Why this fork?
 

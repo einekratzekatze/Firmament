@@ -7,6 +7,7 @@
  */
 
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import proguard.gradle.ProGuardTask
 import com.google.devtools.ksp.gradle.KspAATask
 import com.google.gson.Gson
 import com.google.gson.JsonObject
@@ -435,14 +436,34 @@ shadowJar.configure { // TODO: can these two shadowJar tasks be merged
 	from(zipTree(mergedSourceSetsJar.flatMap { it.archiveFile }))
 	configurations = listOf(shadowMe)
 	configureDuplicateStrategy()
-	archiveClassifier.set("")
+	archiveClassifier.set("shadowed")
+	destinationDirectory.set(layout.buildDirectory.dir("badjars"))
 	relocate("io.github.moulberry.repo", "moe.nea.firmament.deps.repo")
 	relocate("io.github.notenoughupdates.moulconfig", "moe.nea.firmament.deps.moulconfig")
 	mergeServiceFiles()
 	transform<FabricModTransform>()
 }
 
-tasks.assemble { dependsOn(shadowJar) }
+val obfuscateJar by tasks.registering(ProGuardTask::class) {
+	dependsOn(shadowJar)
+
+	injars(shadowJar.flatMap { it.archiveFile })
+
+	doFirst {
+		configurations.compileClasspath.get().forEach { libraryjars(it) }
+		file("${System.getProperty("java.home")}/jmods").listFiles()
+			?.filter { it.extension == "jmod" }
+			?.forEach { libraryjars(mapOf("jarfilter" to "!**.jar,!module-info.class"), it) }
+	}
+
+	outjars(layout.buildDirectory.file("libs/${base.archivesName.get()}-${version}.jar"))
+	configuration(project.file("proguard.pro"))
+}
+
+tasks.assemble {
+	dependsOn(shadowJar)
+	dependsOn(obfuscateJar)
+}
 
 
 tasks.processResources {

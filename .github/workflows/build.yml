@@ -66,14 +66,12 @@ jobs:
                     fetch-tags: true
                     fetch-depth: 0
                     filter: 'tree:0'
-
             -   name: Download generated artifact
                 uses: actions/download-artifact@v5
                 with:
                     name: built-mod-jar
             -   name: Generate changelog
                 run: ./docs/generate-changelog.sh > changelog.md
-
             -   name: Upload release
                 env:
                     GH_TOKEN: ${{ github.token }}

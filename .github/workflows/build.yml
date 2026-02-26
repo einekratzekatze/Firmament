@@ -50,7 +50,7 @@ jobs:
             -   uses: ./.github/composite/gradle
             -   name: Build with gradle
                 run: |
-                    ./gradlew test
+                    ./gradlew test --scan
 
     prepare-release:
         name: Prepare a release

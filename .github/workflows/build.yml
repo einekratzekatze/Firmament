@@ -35,7 +35,9 @@ jobs:
                 with:
                     name: built-mod-jar
                     path: build/libs/Firmament-*.jar
-
+                    exclude: |
+                        build/libs/*-sources.jar
+                        build/libs/*-api.jar
     test:
         name: Test
         needs: build

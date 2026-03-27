@@ -3,7 +3,11 @@ I use this fork mainly to contribute to Firmament. To find the Firmament Version
 ## How does this work?
 Taumahi checks for Firmaments class names. This fork uses Proguard to obfuscate these.
 The file responsible for sending the mod list to the server was simply removed.
-
+## What exactly was changed?
+Find out yourself with the [GitHub Compare Tool](https://github.com/FirmamentMC/Firmament/compare/FirmamentMC:Firmament:mc-1.21.11...einekratzekatze:Firmament:hidden-for-taunahi)
+## How can I trust this?
+- Read the changes via the Tool above, or ask an AI.
+- The jar is Build by GitHub directly from source, but if you are still unsure, just compile it yourself with the Instruction below under [Development](#development).
 <!--
 SPDX-FileCopyrightText: 2023 Linnea Gräf <nea@nea.moe>
 

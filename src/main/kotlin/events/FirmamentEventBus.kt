@@ -27,7 +27,9 @@ open class FirmamentEventBus<T : FirmamentEvent> {
         val invocation: (T) -> Unit, val receivesCancelled: Boolean,
         var knownErrors: MutableSet<Class<*>> = mutableSetOf(),
         val label: String,
-    )
+    ) {
+        override fun toString(): String = "Handler($label)"
+    }
 
     private val toHandle: MutableList<Handler<T>> = CopyOnWriteArrayList()
     val handlers: List<Handler<T>> get() = toHandle

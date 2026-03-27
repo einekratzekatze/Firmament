@@ -1,13 +1,13 @@
 # About Taunahi and this Fork
-I use this fork mainly to contribute to Firmament. To find the Firmament Version that is compatible with Taunahi go to the [Releases](https://github.com/einekratzekatze/Firmament/releases) of this fork or the [Hidden for Taunahi](https://github.com/einekratzekatze/Firmament/tree/hidden-for-taunahi) branch. Should the release be out-of-date DM (me) @einekratzekatze on Discord.
+I use this fork mainly to contribute to Firmament. To find the Firmament version that is compatible with Taunahi go to the [releases](https://github.com/einekratzekatze/Firmament/releases) of this fork or the [Hidden for Taunahi](https://github.com/einekratzekatze/Firmament/tree/hidden-for-taunahi) branch. Should the release be out-of-date DM (me) @einekratzekatze on Discord.
 ## How does this work?
 Taumahi checks for Firmaments class names. This fork uses Proguard to obfuscate these.
 The file responsible for sending the mod list to the server was simply removed.
 ## What exactly was changed?
 Find out yourself with the [GitHub Compare Tool](https://github.com/FirmamentMC/Firmament/compare/FirmamentMC:Firmament:mc-1.21.11...einekratzekatze:Firmament:hidden-for-taunahi)
 ## How can I trust this?
-- Read the changes via the Tool above, or ask an AI.
-- The jar is Build by GitHub directly from source, but if you are still unsure, just compile it yourself with the Instruction below under [Development](#development).
+- Read the changes via the tool above, or ask an AI.
+- The jar is build by GitHub directly from source, but if you are still unsure, just compile it yourself with the Instruction below under [Development](#development).
 <!--
 SPDX-FileCopyrightText: 2023 Linnea Gräf <nea@nea.moe>
 

@@ -1,5 +1,7 @@
 # About Taunahi and this Fork
 I use this fork mainly to contribute to Firmament. To find the Firmament version that is compatible with Taunahi go to the [releases](https://github.com/einekratzekatze/Firmament/releases) of this fork or the [Hidden for Taunahi](https://github.com/einekratzekatze/Firmament/tree/hidden-for-taunahi) branch. Should the release be out-of-date DM (me) @einekratzekatze on Discord.
+
+**Do not ask for updates, unless you checked that Taunahi AND Firmament officially support the version.**
 ## How does this work?
 Taumahi checks for Firmaments class names. This fork uses Proguard to obfuscate these.
 The file responsible for sending the mod list to the server was simply removed.

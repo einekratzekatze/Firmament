@@ -449,11 +449,25 @@ val obfuscateJar by tasks.registering(ProGuardTask::class) {
 
 	injars(shadowJar.flatMap { it.archiveFile })
 
+	// Resolve the JDK from the toolchain rather than from the JVM running Gradle: the two can
+	// differ, and feeding ProGuard jmods from a different Java version than the one that compiled
+	// the classes produces an unresolvable class hierarchy.
+	val jdkHome = javaToolchains.launcherFor(java.toolchain)
+		.map { it.metadata.installationPath.asFile }
+
 	doFirst {
 		configurations.compileClasspath.get().forEach { libraryjars(it) }
-		file("${System.getProperty("java.home")}/jmods").listFiles()
-			?.filter { it.extension == "jmod" }
-			?.forEach { libraryjars(mapOf("jarfilter" to "!**.jar,!module-info.class"), it) }
+		val jmods = File(jdkHome.get(), "jmods")
+		val jmodFiles = jmods.listFiles().orEmpty().filter { it.extension == "jmod" }
+		// Not every distribution ships jmods (Temurin 25 does not). Without them ProGuard cannot
+		// resolve java.lang.Object and fails much later with a vague "incomplete class hierarchy".
+		if (jmodFiles.isEmpty())
+			error(
+				"No .jmod files in $jmods. ProGuard needs the JDK module files to resolve the " +
+					"class hierarchy. Build with a JDK distribution that ships jmods " +
+					"(Zulu, Corretto, Oracle OpenJDK); Temurin 25 does not."
+			)
+		jmodFiles.forEach { libraryjars(mapOf("jarfilter" to "!**.jar,!module-info.class"), it) }
 	}
 
 	outjars(layout.buildDirectory.file("libs/${base.archivesName.get()}-${version}.jar"))

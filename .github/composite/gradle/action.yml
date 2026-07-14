@@ -15,7 +15,9 @@ runs:
         -   name: Set up JDK 25
             uses: actions/setup-java@v5
             with:
-                distribution: temurin
+                # Not temurin: its JDK 25 ships no jmods, which the ProGuard obfuscation step
+                # needs to resolve the class hierarchy.
+                distribution: zulu
                 java-version: 25
         -   name: Set up gradle cache
             uses: gradle/actions/setup-gradle@v4

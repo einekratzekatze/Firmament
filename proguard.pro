@@ -15,6 +15,11 @@
 -keep class moe.nea.firmament.compat.jade.FirmamentJadePlugin { *; }
 -keep class moe.nea.firmament.jarvis.JarvisIntegration { *; }
 
+# The bundled Jarvis HUD library. Its Fabric client entrypoint is referenced by string in
+# fabric.mod.json, and Jarvis resolves its own plugins reflectively, so the whole package
+# must survive obfuscation or HUDs fail to load.
+-keep class moe.nea.jarvis.** { *; }
+
 # Keep mixin infrastructure (referenced by string in firmament.mixins.json)
 -keep class moe.nea.firmament.init.MixinPlugin { *; }
 -keep @org.spongepowered.asm.mixin.Mixin class * { *; }

@@ -31,5 +31,5 @@ dependencies {
 	api(createPluginCoordinate(libs.plugins.loom))
 	implementation("net.fabricmc:access-widener:2.1.0")
 	implementation("com.google.code.gson:gson:2.10.1")
-	api("com.guardsquare:proguard-gradle:7.6.1")
+	api("com.guardsquare:proguard-gradle:7.8.2")
 }
